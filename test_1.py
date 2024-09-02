@@ -823,11 +823,11 @@ Comments, Escape Sequences & Print Statement
 
 #Sets in python:
 
-# a = {"ragib", 34, 4, 5, 2, True, 4}
-# print(a)
+a = {"ragib", 34, 4, 5, 2, True, 4}
+print(a)
 
-# ragib = {}
-# print(type(ragib))
+ragib = {}
+print(type(ragib))
 
-# for value in a:
-#     print(value)
+for value in a:
+    print(value)
