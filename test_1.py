@@ -747,7 +747,7 @@ Comments, Escape Sequences & Print Statement
 
 
 
-#Docstrings in Python and PEP8
+#Doc strings in Python and PEP8
 
 
 
@@ -821,13 +821,183 @@ Comments, Escape Sequences & Print Statement
 
 
 
-#Sets in python:
 
-a = {"ragib", 34, 4, 5, 2, True, 4}
-print(a)
 
-ragib = {}
-print(type(ragib))
 
-for value in a:
-    print(value)
+
+
+
+
+
+
+#Sets in python:  duplicate value shows one, no order maintain
+
+# Sets in python more or less work in the same way as sets in mathematics. We can perform operations like union and intersection on the sets just like in mathematics.
+
+# a = {"ragib", 34, 4, 5, 2, True, 4}
+# print(a)
+
+# ragib = {}
+# print(type(ragib))
+
+# for value in a:
+#     print(value)
+
+
+
+# I. union() and update():
+# The union() and update() methods prints all items that are present in the two sets. The union() method returns a new set whereas update() method adds item into the existing set from another set.
+
+# Example:
+
+# cities = {"Tokyo", "Madrid", "Berlin", "Delhi"}
+# cities2 = {"Tokyo", "Seoul", "Kabul", "Madrid"}
+# cities3 = cities.union(cities2)
+# print(cities3)
+
+
+
+# cities = {"Tokyo", "Madrid", "Berlin", "Delhi"}
+# cities2 = {"Tokyo", "Seoul", "Kabul", "Madrid"}
+# cities.update(cities2)
+# print(cities)
+
+
+# II. intersection and intersection_update():
+# The intersection() and intersection_update() methods prints only items that are similar to both the sets. The intersection() method returns a new set whereas intersection_update() method updates into the existing set from another set.
+
+# Example:
+
+# cities = {"Tokyo", "Madrid", "Berlin", "Delhi"}
+# cities2 = {"Tokyo", "Seoul", "Kabul", "Madrid"}
+# cities3 = cities.intersection(cities2)
+# print(cities3)
+
+
+# cities = {"Tokyo", "Madrid", "Berlin", "Delhi"}
+# cities2 = {"Tokyo", "Seoul", "Kabul", "Madrid"}
+# cities.intersection_update(cities2)
+# print(cities)
+
+
+# III. symmetric_difference and symmetric_difference_update():
+# The symmetric_difference() and symmetric_difference_update() methods prints only items that are not similar to both the sets. The symmetric_difference() method returns a new set whereas symmetric_difference_update() method updates into the existing set from another set.
+
+# Example:
+
+# cities = {"Tokyo", "Madrid", "Berlin", "Delhi"}
+# cities2 = {"Tokyo", "Seoul", "Kabul", "Madrid"}
+# cities3 = cities.symmetric_difference(cities2)
+# print(cities3)
+
+# cities = {"Tokyo", "Madrid", "Berlin", "Delhi"}
+# cities2 = {"Tokyo", "Seoul", "Kabul", "Madrid"}
+# cities.symmetric_difference_update(cities2)
+# print(cities)
+
+
+
+# IV. difference() and difference_update():
+# The difference() and difference_update() methods prints only items that are only present in the original set and not in both the sets. The difference() method returns a new set whereas difference_update() method updates into the existing set from another set.
+
+# Example:
+
+
+# cities = {"Tokyo", "Madrid", "Berlin", "Delhi"}
+# cities2 = {"Seoul", "Kabul", "Delhi"}
+# cities3 = cities.difference(cities2)
+# print(cities3)
+
+
+
+# cities = {"Tokyo", "Madrid", "Berlin", "Delhi"}
+# cities2 = {"Seoul", "Kabul", "Delhi"}
+# print(cities.difference(cities2))
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# #Dictionaries in Python (In past dic are unordered)  
+# Dictionaries are ordered collection of data items. They store multiple items in a single variable. Dictionary items are key-value pairs that are separated by commas and enclosed within curly brackets {}.
+
+
+
+
+# dic = {
+#     "Ragib": "Human being",
+#     "Spoon": "Object"
+# }
+
+# print(dic["Ragib"])
+
+# info = {'name':'Karan', 'age':19, 'eligible':True}
+# print(info)
+
+
+
+# I. Accessing single values:
+# Values in a dictionary can be accessed using keys. We can access dictionary values by mentioning keys either in square brackets or by using get method.
+
+# # Example:
+# info = {'name':'Karan', 'age':19, 'eligible':True}
+# print(info['name'])
+# print(info.get('eligible'))
+
+
+
+# II. Accessing multiple values:
+# We can print all the values in the dictionary using values() method.
+
+# # Example:
+# info = {'name':'Karan', 'age':19, 'eligible':True}
+# print(info.values())
+
+
+# III. Accessing keys:
+# We can print all the keys in the dictionary using keys() method.
+
+# Example:
+
+# info = {'name':'Karan', 'age':19, 'eligible':True}
+# print(info.keys())
+
+
+# IV. Accessing key-value pairs:
+# We can print all the key-value pairs in the dictionary using items() method.
+
+# Example:
+
+# info = {'name':'Karan', 'age':19, 'eligible':True}
+# print(info.items())
+
+
+# info = {'name':'Karan', 'age':19, 'eligible':True}
+# # print(info) 
+# # print(info.keys())
+# # print(info.values())
+
+# # for key in info.keys():
+# #   print(f"The value corresponding to the key {key} is {info[key]}")
+
+# print(info.items())
+# for key, value in info.items():
+#   print(f"The value corresponding to the key {key} is {value}") 
+
+
+
+
+
+
+
+
