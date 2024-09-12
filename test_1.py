@@ -1422,3 +1422,168 @@ Comments, Escape Sequences & Print Statement
 #     break 
 
 # print(f"Your take home money is {money}")
+
+
+
+
+
+
+
+
+
+# If ... Else in One Line
+# There is also a shorthand syntax for the if-else statement that can be used when the condition being tested is simple and the code blocks to be executed are short. Here's an example:
+
+# a = 2
+# b = 330
+# print("A") if a > b else print("B")
+# You can also have multiple else statements on the same line:
+
+# Example
+# One line if else statement, with 3 conditions:
+
+# a = 330
+# b = 330
+# print("A") if a > b else print("=") if a == b else print("B")
+# Another Example
+# result = value_if_true if condition else value_if_false
+# This syntax is equivalent to the following if-else statement:
+
+# if condition:
+#     result = value_if_true
+# else:
+#     result = value_if_false
+# Conclusion
+# The shorthand syntax can be a convenient way to write simple if-else statements, especially when you want to assign a value to a variable based on a condition.
+# However, it's not suitable for more complex situations where you need to execute multiple statements or perform more complex logic. In those cases, it's best to use the full if-else syntax.
+
+
+
+
+# a = 330000
+# b = 3303
+# print("A") if a > b else print("=") if a == b else print("B")
+
+# c = 9 if a>b else 0
+# print(c)
+
+
+
+
+
+
+
+
+
+
+
+
+
+# Enumerate function in python
+# The enumerate function is a built-in function in Python that allows you to loop over a sequence (such as a list, tuple, or string) and get the index and value of each element in the sequence at the same time. Here's a basic example of how it works:
+
+# # Loop over a list and print the index and value of each element
+# fruits = ['apple', 'banana', 'mango']
+# for index, fruit in enumerate(fruits):
+#     print(index, fruit)
+# The output of this code will be:
+
+# 0 apple
+# 1 banana
+# 2 mango
+# As you can see, the enumerate function returns a tuple containing the index and value of each element in the sequence. You can use the for loop to unpack these tuples and assign them to variables, as shown in the example above.
+
+# Changing the start index
+# By default, the enumerate function starts the index at 0, but you can specify a different starting index by passing it as an argument to the enumerate function:
+
+# # Loop over a list and print the index (starting at 1) and value of each element
+# fruits = ['apple', 'banana', 'mango']
+# for index, fruit in enumerate(fruits, start=1):
+#     print(index, fruit)
+# This will output:
+
+# 1 apple
+# 2 banana
+# 3 mango
+# The enumerate function is often used when you need to loop over a sequence and perform some action with both the index and value of each element. For example, you might use it to loop over a list of strings and print the index and value of each string in a formatted way:
+
+# fruits = ['apple', 'banana', 'mango']
+# for index, fruit in enumerate(fruits):
+#     print(f'{index+1}: {fruit}')
+# This will output:
+
+# 1: apple
+# 2: banana
+# 3: mango
+# In addition to lists, you can use the enumerate function with any other sequence type in Python, such as tuples and strings. Here's an example with a tuple:
+
+# # Loop over a tuple and print the index and value of each element
+# colors = ('red', 'green', 'blue')
+# for index, color in enumerate(colors):
+#     print(index, color)
+# And here's an example with a string:
+
+# # Loop over a string and print the index and value of each character
+# s = 'hello'
+# for index, c in enumerate(s):
+#     print(index, c)
+
+
+
+
+
+
+
+
+# marks = [12, 56, 32, 98, 12,  45, 1, 4]
+
+# # index = 0
+# # for mark in marks:
+# #   print(mark)
+# #   if(index == 3):
+# #     print("Harry, awesome!")
+# #   index +=1
+
+# for index, mark in enumerate(marks, start=1):
+#   print(mark)
+#   if(index == 3):
+#     print("Harry, awesome!")
+
+
+
+
+# Virtual Environment
+# A virtual environment is a tool used to isolate specific Python environments on a single machine, allowing you to work on multiple projects with different dependencies and packages without conflicts. This can be especially useful when working on projects that have conflicting package versions or packages that are not compatible with each other.
+
+# To create a virtual environment in Python, you can use the venv module that comes with Python. Here's an example of how to create a virtual environment and activate it:
+
+# # Create a virtual environment
+# python -m venv myenv
+# # Activate the virtual environment (Linux/macOS)
+# source myenv/bin/activate
+# # Activate the virtual environment (Windows)
+# myenv\Scripts\activate.bat
+# Once the virtual environment is activated, any packages that you install using pip will be installed in the virtual environment, rather than in the global Python environment. This allows you to have a separate set of packages for each project, without affecting the packages installed in the global environment.
+
+# To deactivate the virtual environment, you can use the deactivate command:
+
+# # Deactivate the virtual environment
+# deactivate
+# The "requirements.txt" file
+# In addition to creating and activating a virtual environment, it can be useful to create a requirements.txt file that lists the packages and their versions that your project depends on. This file can be used to easily install all the required packages in a new environment.
+
+# To create a requirements.txt file, you can use the pip freeze command, which outputs a list of installed packages and their versions. For example:
+
+# # Output the list of installed packages and their versions to a file
+# pip freeze > requirements.txt
+# To install the packages listed in the requirements.txt file, you can use the pip install command with the -r flag:
+
+# # Install the packages listed in the requirements.txt file
+# pip install -r requirements.txt
+# Using a virtual environment and a requirements.txt file can help you manage the dependencies for your Python projects and ensure that your projects are portable and can be easily set up on a new machine.
+
+
+
+
+
+
