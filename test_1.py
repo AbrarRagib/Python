@@ -2010,7 +2010,7 @@ Comments, Escape Sequences & Print Statement
 
 
 
-x = 100  # global variable
+x = 1000  # global variable
 
 
 def my_function():
