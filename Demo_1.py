@@ -10,3 +10,13 @@ print(__name__)
 
 if __name__ == "__main__":
   welcome()
+
+# Italic _hello_ 
+
+# Bold *hello*
+ 
+# Code:
+# ```
+# Print(‘hello’)
+# ```
+
