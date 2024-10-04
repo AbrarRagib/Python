@@ -2792,3 +2792,31 @@ Comments, Escape Sequences & Print Statement
 
 
 
+# How would you reverse a string in Python?
+def reverse_string(s):
+    return s[::-1]
+
+# Example usage:
+print(reverse_string("hello"))  # Output: "olleh"
+
+
+# String Slicing:
+
+# s[::-1] is a Python string slicing technique used to reverse a string. Here's what it means:
+# s[start:stop:step] is the general format for slicing.
+# start: The starting index of the slice (optional, defaults to 0).
+# stop: The stopping index of the slice (optional, defaults to the end of the string).
+# step: This controls how the slice progresses. If it's positive, it slices forward, but if it's negative, it slices backward.
+# [::-1] means "start at the end of the string and move backward by one step at a time," effectively reversing the string.
+
+
+# Write a function to check if a given string is a palindrome.``
+def is_palindrome(s):
+    # Convert to lowercase and remove spaces
+    s = s.replace(" ", "").lower()
+    # Compare string with its reverse
+    return s == s[::-1]
+
+# Example usage:
+print(is_palindrome("A man a plan a canal Panama"))  # Output: True
+print(is_palindrome("hello"))  # Output: False
