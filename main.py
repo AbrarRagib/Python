@@ -2792,12 +2792,12 @@ Comments, Escape Sequences & Print Statement
 
 
 
-# How would you reverse a string in Python?
-def reverse_string(s):
-    return s[::-1]
+# # How would you reverse a string in Python?
+# def reverse_string(s):
+#     return s[::-1]
 
-# Example usage:
-print(reverse_string("hello"))  # Output: "olleh"
+# # Example usage:
+# print(reverse_string("hello"))  # Output: "olleh"
 
 
 # String Slicing:
@@ -2810,13 +2810,15 @@ print(reverse_string("hello"))  # Output: "olleh"
 # [::-1] means "start at the end of the string and move backward by one step at a time," effectively reversing the string.
 
 
-# Write a function to check if a given string is a palindrome.``
-def is_palindrome(s):
-    # Convert to lowercase and remove spaces
-    s = s.replace(" ", "").lower()
-    # Compare string with its reverse
-    return s == s[::-1]
+# # Write a function to check if a given string is a palindrome.``
+# def is_palindrome(s):
+#     # Convert to lowercase and remove spaces
+#     s = s.replace(" ", "").lower()
+#     # Compare string with its reverse
+#     return s == s[::-1]
 
-# Example usage:
-print(is_palindrome("A man a plan a canal Panama"))  # Output: True
-print(is_palindrome("hello"))  # Output: False
+# # Example usage:
+# print(is_palindrome("A man a plan a canal Panama"))  # Output: True
+# print(is_palindrome("hello"))  # Output: False
+
+
