@@ -1,3 +1,61 @@
+# 1. List
+# Type: list
+# Definition: Ordered, mutable (changeable) collection of items.
+# Syntax: my_list = [1, 2, 3, "apple"]
+# Usage: Allows duplicates, indexing, slicing, and can store mixed data types.
+# Example: my_list[0] gives 1.
+
+# 2. Tuple
+# Type: tuple
+# Definition: Ordered, immutable (unchangeable) collection of items.
+# Syntax: my_tuple = (1, 2, 3, "banana")
+# Usage: Used for fixed collections of items, faster than lists.
+# Example: my_tuple[1] gives 2.
+
+# 3. Dictionary
+# Type: dict
+# Definition: Unordered collection of key-value pairs.
+# Syntax: my_dict = {"name": "Alice", "age": 25}
+# Usage: Access values by keys, no duplicate keys allowed.
+# Example: my_dict["name"] gives "Alice".
+
+# 4. Set
+# Type: set
+# Definition: Unordered collection of unique items.
+# Syntax: my_set = {1, 2, 3, "apple"}
+# Usage: Fast membership testing, no duplicates.
+# Example: {1, 2, 3} | {3, 4, 5} gives {1, 2, 3, 4, 5}.
+
+# 5. String
+# Type: str
+# Definition: Ordered, immutable sequence of characters.
+# Syntax: my_string = "Hello, World!"
+# Usage: Text manipulation, indexing, slicing.
+# Example: my_string[0] gives "H".
+
+# 6. Integer
+# Type: int
+# Definition: Represents whole numbers.
+# Syntax: my_int = 42
+# Usage: Used for counting, arithmetic operations.
+# Example: my_int + 8 gives 50.
+
+# 7. Float
+# Type: float
+# Definition: Represents decimal numbers.
+# Syntax: my_float = 3.14
+# Usage: Used for precise calculations.
+# Example: my_float * 2 gives 6.28.
+
+# 8. Boolean
+# Type: bool
+# Definition: Represents True or False.
+# Syntax: is_active = True
+# Usage: Used for conditional statements, logical operations.
+# Example: 5 > 3 gives True.
+
+
+
 # a = 5
 # b = 7
 # c= a+b
@@ -3354,4 +3412,10 @@ Comments, Escape Sequences & Print Statement
 # print(Employee.company)
 
 
-   
+
+
+
+
+
+
+
