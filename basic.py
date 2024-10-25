@@ -61,17 +61,51 @@
 
 
 
+# def is_palindrome(s):
+#     # Check if the string 's' is equal to its reverse.
+#     # s[::-1] reverses the string 's' by slicing it from end to start.
+#     return s == s[::-1]
+# # s[::-1]: This is a slicing technique that reverses the string s. The syntax [start:stop:step] allows control over slicing. Here, step = -1 means slice the string backward, effectively reversing it.
+
+# # Example usage:
+# # Test if "madam" is a palindrome
+# print(is_palindrome("madam"))  # Output: True, because "madam" is the same forward and backward.
+
+# # Test if "hello" is a palindrome
+# print(is_palindrome("hello"))  # Output: False, because "hello" is not the same forward and backward.
+
+
+
+
+
+
+
+
+# # 2nd way
+# # Write a function to check if a given string is a palindrome.``
+# def is_palindrome(s):
+#     # Convert to lowercase and remove spaces
+#     s = s.replace(" ", "").lower()
+# #     s.replace(" ", "") removes all spaces in the string s by replacing each space character (" ") with an empty string ("").
+# # .lower() converts all characters in the string to lowercase.
+#     # Compare string with its reverse
+#     return s == s[::-1] 
+# # s[::-1]: This is a slicing technique that reverses the string s. The syntax [start:stop:step] allows control over slicing. Here, step = -1 means slice the string backward, effectively reversing it. -1 means backwards and 1 means forwards(check the same line)
+
+# # Example usage:
+# print(is_palindrome("A man a plan a canal Panama"))  # Output: True
+# print(is_palindrome("hello"))  # Output: False
+
+
+
+
 def is_palindrome(s):
-    # Check if the string 's' is equal to its reverse.
-    # s[::-1] reverses the string 's' by slicing it from end to start.
+    s = s.replace(" ","").lower()
     return s == s[::-1]
 
-# Example usage:
-# Test if "madam" is a palindrome
-print(is_palindrome("madam"))  # Output: True, because "madam" is the same forward and backward.
 
-# Test if "hello" is a palindrome
-print(is_palindrome("hello"))  # Output: False, because "hello" is not the same forward and backward.
+
+print('Output is: ',is_palindrome("A man a plan a canal Panama"))
 
 
 
