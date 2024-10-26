@@ -115,19 +115,40 @@
 # Problem: Print numbers from 1 to 100. For multiples of 3, print "Fizz" instead of the number. For multiples of 5, print "Buzz." For numbers that are multiples of both 3 and 5, print "FizzBuzz."
 
 
-def fizz_buzz():
-    for i in range(1, 101):
-        if i % 3 == 0 and i % 5 == 0:
-            print("FizzBuzz")
-        elif i % 3 == 0:
-            print("Fizz")
-        elif i % 5 == 0:
-            print("Buzz")
+# def fizz_buzz():
+#     for i in range(1, 101):
+#         if i % 3 == 0 and i % 5 == 0:
+#             print("FizzBuzz")
+#         elif i % 3 == 0:
+#             print("Fizz")
+#         elif i % 5 == 0:
+#             print("Buzz")
+#         else:
+#             print(i)
+
+# # Example usage:
+# fizz_buzz()
+
+
+
+
+# 4. Find Duplicate Elements in an Array
+# Problem: Write a function to find duplicate elements in a given array.
+
+
+def find_duplicates(arr):
+    duplicates = []
+    seen = set()
+    for num in arr:
+        if num in seen:
+            duplicates.append(num)
         else:
-            print(i)
+            seen.add(num)
+    return duplicates
 
 # Example usage:
-fizz_buzz()
+arr = [1, 2, 3, 4, 5, 2, 3, 6]
+print(find_duplicates(arr))  # Output: [2, 3]
 
 
 
