@@ -132,7 +132,7 @@
 
 
 
-# 4. Find Duplicate Elements in an Array
+# 4. Find Duplicate Elements in an Array ***
 # Problem: Write a function to find duplicate elements in a given array.
 
 
@@ -233,7 +233,7 @@
 
 
 
-# 8.Anagram Problem
+# 8.Anagram Problem ***
 # Problem: Write a function that checks if two strings are anagrams of each other. Two strings are considered anagrams if they contain the same characters in the same frequency but in any order. For example, "listen" and "silent" are anagrams.
 
 
@@ -308,32 +308,32 @@
 
 
 
-# 10. Longest Palindromic Substring
-# Problem: Write a function to find the longest palindromic substring in a given string.
+# # 10. Longest Palindromic Substring ---
+# # Problem: Write a function to find the longest palindromic substring in a given string.
 
-def longest_palindrome(s):
-    def expand_around_center(s, left, right):
-        while left >= 0 and right < len(s) and s[left] == s[right]:
-            left -= 1
-            right += 1
-        return s[left+1:right]
+# def longest_palindrome(s):
+#     def expand_around_center(s, left, right):
+#         while left >= 0 and right < len(s) and s[left] == s[right]:
+#             left -= 1
+#             right += 1
+#         return s[left+1:right]
 
-    result = ""
-    for i in range(len(s)):
-        # Odd length palindromes
-        temp = expand_around_center(s, i, i)
-        if len(temp) > len(result):
-            result = temp
-        # Even length palindromes
-        temp = expand_around_center(s, i, i+1)
-        if len(temp) > len(result):
-            result = temp
+#     result = ""
+#     for i in range(len(s)):
+#         # Odd length palindromes
+#         temp = expand_around_center(s, i, i)
+#         if len(temp) > len(result):
+#             result = temp
+#         # Even length palindromes
+#         temp = expand_around_center(s, i, i+1)
+#         if len(temp) > len(result):
+#             result = temp
 
-    return result
+#     return result
 
-# Example usage:
-print(longest_palindrome("babad"))  # Output: "bab" or "aba"
-print(longest_palindrome("cbbd"))   # Output: "bb"
+# # Example usage:
+# print(longest_palindrome("babad"))  # Output: "bab" or "aba"
+# print(longest_palindrome("cbbd"))   # Output: "bb"
 
 
 
@@ -342,36 +342,71 @@ print(longest_palindrome("cbbd"))   # Output: "bb"
 
 
 
-def are_rotations(str1, str2):
-    # If lengths are not the same, they can't be rotations
-    if len(str1) != len(str2):
-        return False
-    # Concatenate the first string to itself and check if the second string is a substring of it
-    return str2 in str1 + str1
+# def are_rotations(str1, str2):
+#     # If lengths are not the same, they can't be rotations
+#     if len(str1) != len(str2):
+#         return False
+#     # Concatenate the first string to itself and check if the second string is a substring of it
+#     return str2 in str1 + str1
+
+# # Example usage:
+# print(are_rotations("waterbottle", "erbottlewat"))  # Output: True
+# print(are_rotations("hello", "llohe"))              # Output: True
+# print(are_rotations("hello", "world"))              # Output: False
+
+
+
+# # another way:
+
+# def are_rotations(str1, str2):
+#     # Step 1: Check if lengths are equal, if not, return False
+#     if len(str1) != len(str2):
+#         return False
+    
+#     # Step 2: Concatenate str1 with itself
+#     combined = str1 + str1
+    
+#     # Step 3: Check if str2 is a substring of combined
+#     return str2 in combined
+
+# # Example usage:
+# print(are_rotations("waterbottle", "erbottlewat"))  # Output: True
+# print(are_rotations("hello", "llohe"))              # Output: True
+# print(are_rotations("hello", "world"))              # Output: False
+
+
+
+
+
+# 4. Remove Duplicate Characters in a String ***
+# Problem: Write a function that removes duplicate characters in a given string.
+
+
+def remove_duplicates(s):
+    seen = set()
+    result = []
+    for char in s:
+        if char not in seen:
+            result.append(char)
+            seen.add(char)
+    return ''.join(result)
 
 # Example usage:
-print(are_rotations("waterbottle", "erbottlewat"))  # Output: True
-print(are_rotations("hello", "llohe"))              # Output: True
-print(are_rotations("hello", "world"))              # Output: False
+print(remove_duplicates("aabbcc"))  # Output: "abc"
+print(remove_duplicates("abracadabra"))  # Output: "abrcd"
 
 
-
-# another way:
-
-def are_rotations(str1, str2):
-    # Step 1: Check if lengths are equal, if not, return False
-    if len(str1) != len(str2):
-        return False
-    
-    # Step 2: Concatenate str1 with itself
-    combined = str1 + str1
-    
-    # Step 3: Check if str2 is a substring of combined
-    return str2 in combined
+#Dub_Number find in array:
+def find_duplicates(arr):
+    duplicates = []
+    seen = set()
+    for num in arr:
+        if num in seen:
+            duplicates.append(num)
+        else:
+            seen.add(num)
+    return duplicates
 
 # Example usage:
-print(are_rotations("waterbottle", "erbottlewat"))  # Output: True
-print(are_rotations("hello", "llohe"))              # Output: True
-print(are_rotations("hello", "world"))              # Output: False
-
-
+arr = [1, 2, 3, 4, 5, 2, 3, 6]
+print(find_duplicates(arr))  # Output: [2, 3]
