@@ -136,22 +136,34 @@
 # Problem: Write a function to find duplicate elements in a given array.
 
 
-def find_duplicates(arr):
-    duplicates = []
-    seen = set()
-    for num in arr:
-        if num in seen:
-            duplicates.append(num)
-        else:
-            seen.add(num)
-    return duplicates
+# def find_duplicates(arr):
+#     duplicates = []
+#     seen = set()
+#     for num in arr:
+#         if num in seen:
+#             duplicates.append(num)
+#         else:
+#             seen.add(num)
+#     return duplicates
+
+# # Example usage:
+# arr = [1, 2, 3, 4, 5, 2, 3, 6]
+# print(find_duplicates(arr))  # Output: [2, 3]
+
+
+
+
+# 5. Reverse an Array
+# Problem: Write a function to reverse a given array.
+
+
+
+def reverse_array(arr):
+    return arr[::-1]
 
 # Example usage:
-arr = [1, 2, 3, 4, 5, 2, 3, 6]
-print(find_duplicates(arr))  # Output: [2, 3]
-
-
-
+arr = [1, 2, 3, 4, 5]
+print(reverse_array(arr))  # Output: [5, 4, 3, 2, 1]
 
 
 
