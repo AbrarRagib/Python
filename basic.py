@@ -542,47 +542,85 @@
 
 
 
-def is_isomorphic(s, t):
-    if len(s) != len(t):
-        return False
+# def is_isomorphic(s, t):
+#     if len(s) != len(t):
+#         return False
     
-    # Two dictionaries to store the character mappings from s to t and t to s
-    mapping_s_t = {}
-    mapping_t_s = {}
+#     # Two dictionaries to store the character mappings from s to t and t to s
+#     mapping_s_t = {}
+#     mapping_t_s = {}
     
-    for char_s, char_t in zip(s, t):
-        # Check the s -> t mapping
-        if char_s in mapping_s_t:
-            if mapping_s_t[char_s] != char_t:
-                return False
-        else:
-            mapping_s_t[char_s] = char_t
+#     for char_s, char_t in zip(s, t):
+#         # Check the s -> t mapping
+#         if char_s in mapping_s_t:
+#             if mapping_s_t[char_s] != char_t:
+#                 return False
+#         else:
+#             mapping_s_t[char_s] = char_t
         
-        # Check the t -> s mapping
-        if char_t in mapping_t_s:
-            if mapping_t_s[char_t] != char_s:
-                return False
-        else:
-            mapping_t_s[char_t] = char_s
+#         # Check the t -> s mapping
+#         if char_t in mapping_t_s:
+#             if mapping_t_s[char_t] != char_s:
+#                 return False
+#         else:
+#             mapping_t_s[char_t] = char_s
 
-    return True
+#     return True
 
-# Test cases
-print(is_isomorphic("egg", "add"))  # Output: True
-print(is_isomorphic("foo", "bar"))  # Output: False
-print(is_isomorphic("paper", "title"))  # Output: True
-
-
+# # Test cases
+# print(is_isomorphic("egg", "add"))  # Output: True
+# print(is_isomorphic("foo", "bar"))  # Output: False
+# print(is_isomorphic("paper", "title"))  # Output: True
 
 
-# easy:
-def is_isomorphic(s, t):
-    # The idea is to use two sets to verify unique mappings between characters in s and t
-    return len(set(s)) == len(set(t)) == len(set(zip(s, t)))
 
-# Test cases
-print(is_isomorphic("egg", "add"))    # Output: True
-print(is_isomorphic("foo", "bar"))    # Output: False
-print(is_isomorphic("paper", "title")) # Output: True
+
+# # easy:
+# def is_isomorphic(s, t):
+#     # The idea is to use two sets to verify unique mappings between characters in s and t
+#     return len(set(s)) == len(set(t)) == len(set(zip(s, t)))
+
+# # Test cases
+# print(is_isomorphic("egg", "add"))    # Output: True
+# print(is_isomorphic("foo", "bar"))    # Output: False
+# print(is_isomorphic("paper", "title")) # Output: True
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# 18. Write a Python function that takes a string as input and returns a dictionary containing all the characters that appear more than once in the string along with their respective counts. If there are no repeated characters, the function should return an empty dictionary.
+
+
+# def find_repeated_chars(s):
+#     # Dictionary to store character counts
+#     char_count = {}
+    
+#     # Count occurrences of each character
+#     for char in s:
+#         if char in char_count:
+#             char_count[char] += 1
+#         else:
+#             char_count[char] = 1
+
+#     # Collect characters that have a count greater than 1
+#     repeated_chars = {char: count for char, count in char_count.items() if count > 1}
+    
+#     return repeated_chars
+
+# # Test cases
+# print(find_repeated_chars("programming"))  # Output: {'r': 2, 'g': 2, 'm': 2}
+# print(find_repeated_chars("hello world"))  # Output: {'l': 3, 'o': 2}
+
 
 
