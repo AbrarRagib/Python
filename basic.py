@@ -257,16 +257,121 @@
 # print(are_anagrams("hello", "world"))  # Output: False
 
 
-def are_anagrams(str1, str2):
-    str1 = str1.replace(" ","").lower()
-    str2 = str2.replace(" ","").lower()
+# # mine:
+# def are_anagrams(str1, str2):
+#     str1 = str1.replace(" ","").lower()
+#     str2 = str2.replace(" ","").lower()
     
-    if len(str1)  != len(str2):
+#     if len(str1)  != len(str2):
+#         return False
+#     return sorted(str1) == sorted(str2)
+
+# print(are_anagrams('listen', 'silent'))
+
+
+
+
+# 9. Check if Two Strings are Permutations of Each Other
+# Problem: Write a function to check if two strings are permutations of each other. Two strings are permutations if they have the same characters in the same frequency, but they do not need to be in order.
+
+# def are_permutations(str1, str2):
+#     # Remove spaces and convert to lowercase
+#     str1 = str1.replace(" ", "").lower()
+#     str2 = str2.replace(" ", "").lower()
+
+#     # Check if the strings have the same length
+#     if len(str1) != len(str2):
+#         return False
+
+#     # Use a dictionary to count occurrences of each character
+#     char_count = {}
+#     for char in str1:
+#         char_count[char] = char_count.get(char, 0) + 1
+    
+#     for char in str2:
+#         if char not in char_count:
+#             return False
+#         char_count[char] -= 1
+#         if char_count[char] < 0:
+#             return False
+
+#     return True
+
+# # Example usage:
+# print(are_permutations("abc", "bca"))  # Output: True
+# print(are_permutations("abc", "bcd"))  # Output: False
+
+
+
+
+
+
+
+
+# 10. Longest Palindromic Substring
+# Problem: Write a function to find the longest palindromic substring in a given string.
+
+def longest_palindrome(s):
+    def expand_around_center(s, left, right):
+        while left >= 0 and right < len(s) and s[left] == s[right]:
+            left -= 1
+            right += 1
+        return s[left+1:right]
+
+    result = ""
+    for i in range(len(s)):
+        # Odd length palindromes
+        temp = expand_around_center(s, i, i)
+        if len(temp) > len(result):
+            result = temp
+        # Even length palindromes
+        temp = expand_around_center(s, i, i+1)
+        if len(temp) > len(result):
+            result = temp
+
+    return result
+
+# Example usage:
+print(longest_palindrome("babad"))  # Output: "bab" or "aba"
+print(longest_palindrome("cbbd"))   # Output: "bb"
+
+
+
+# 11. Check if Two Strings are Rotations of Each Other
+# Problem: Write a function to check if one string is a rotation of another string. For example, "waterbottle" is a rotation of "erbottlewat."
+
+
+
+def are_rotations(str1, str2):
+    # If lengths are not the same, they can't be rotations
+    if len(str1) != len(str2):
         return False
-    return sorted(str1) == sorted(str2)
+    # Concatenate the first string to itself and check if the second string is a substring of it
+    return str2 in str1 + str1
 
-print(are_anagrams('listen', 'silent'))
+# Example usage:
+print(are_rotations("waterbottle", "erbottlewat"))  # Output: True
+print(are_rotations("hello", "llohe"))              # Output: True
+print(are_rotations("hello", "world"))              # Output: False
 
 
+
+# another way:
+
+def are_rotations(str1, str2):
+    # Step 1: Check if lengths are equal, if not, return False
+    if len(str1) != len(str2):
+        return False
+    
+    # Step 2: Concatenate str1 with itself
+    combined = str1 + str1
+    
+    # Step 3: Check if str2 is a substring of combined
+    return str2 in combined
+
+# Example usage:
+print(are_rotations("waterbottle", "erbottlewat"))  # Output: True
+print(are_rotations("hello", "llohe"))              # Output: True
+print(are_rotations("hello", "world"))              # Output: False
 
 
