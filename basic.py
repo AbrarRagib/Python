@@ -173,27 +173,56 @@
 # Problem: Write a function to count the number of vowels in a given string.
 
 
-def count_vowels(s):
-    vowels = "aeiouAEIOU"
-    count = 0
-    for char in s:
-        if char in vowels:
-            count += 1
-    return count
+# def count_vowels(s):
+#     vowels = "aeiouAEIOU"
+#     count = 0
+#     for char in s:
+#         if char in vowels:
+#             count += 1
+#     return count
+
+# # Example usage:
+# print(count_vowels("hello world"))  # Output: 3
+
+
+
+
+
+
+# def count_con(s):
+#     cons = "bcdfghjklmnpqrstvzxyz"
+#     count = 0
+#     for char in s:
+#         if char in cons:
+#             count += 1
+#     return count
+# print(count_con('abrar ragib'))
+
+
+
+# 7. Sum of Even Numbers in an Array
+# Problem: Write a function to calculate the sum of all even numbers in a given array.
+
+
+def sum_of_evens(arr):
+    return sum(num for num in arr if num % 2 == 0)
 
 # Example usage:
-print(count_vowels("hello world"))  # Output: 3
+arr = [1, 2, 3, 4, 5, 6]
+print(sum_of_evens(arr))  # Output: 12
 
 
 
+#my way:
+def sum_of_even(arr):
+    add = 0
+    for num in arr:
+        if num % 2 == 0:
+            add += num
+    return add
+    
+
+arr= [1,2,3,4,4]
+print(sum_of_even(arr))
 
 
-
-def count_con(s):
-    cons = "bcdfghjklmnpqrstvzxyz"
-    count = 0
-    for char in s:
-        if char in cons:
-            count += 1
-    return count
-print(count_con('abrar ragib'))
