@@ -378,35 +378,118 @@
 
 
 
-# 4. Remove Duplicate Characters in a String ***
+# 12. Remove Duplicate Characters in a String ***
 # Problem: Write a function that removes duplicate characters in a given string.
 
 
-def remove_duplicates(s):
-    seen = set()
-    result = []
+# def remove_duplicates(s):
+#     seen = set()
+#     result = []
+#     for char in s:
+#         if char not in seen:
+#             result.append(char)
+#             seen.add(char)
+#     return ''.join(result)
+
+# # Example usage:
+# print(remove_duplicates("aabbcc"))  # Output: "abc"
+# print(remove_duplicates("abracadabra"))  # Output: "abrcd"
+
+
+# #Dub_Number find in array:
+# def find_duplicates(arr):
+#     duplicates = []
+#     seen = set()
+#     for num in arr:
+#         if num in seen:
+#             duplicates.append(num)
+#         else:
+#             seen.add(num)
+#     return duplicates
+
+# # Example usage:
+# arr = [1, 2, 3, 4, 5, 2, 3, 6]
+# print(find_duplicates(arr))  # Output: [2, 3]
+
+
+
+
+
+
+
+
+
+
+
+
+# # 13. Find the First Non-Repeating Character in a String
+# # Problem: Write a function to find the first non-repeating character in a string. If all characters repeat, return None.
+
+# def first_non_repeating_char(s):
+#     char_count = {}  # Step 1: Dictionary to count characters
+    
+#     # Count each character's frequency
+#     for char in s:
+#         char_count[char] = char_count.get(char, 0) + 1
+    
+#     # Find the first character with a count of 1
+#     for char in s:
+#         if char_count[char] == 1:
+#             return char
+    
+#     # If no non-repeating character found, return None
+#     return None
+
+
+# # Example usage:
+# print(first_non_repeating_char("abracadabra"))  # Output: "c"
+# print(first_non_repeating_char("aabbcc"))  # Output: None
+
+
+
+
+
+
+
+
+
+
+
+
+# 14. Check if a String is a Valid Number
+# Problem: Write a function to check if a given string represents a valid number (integer or floating-point).
+
+
+
+# def is_valid_number(s):
+#     try:
+#         float(s)
+#         return True
+#     except ValueError:
+#         return False
+
+# # Example usage:
+# print(is_valid_number("123"))      # Output: True
+# print(is_valid_number("123.45"))   # Output: True
+# print(is_valid_number("123abc"))   # Output: False
+
+
+
+15. Check if a String has All Unique Characters
+Problem: Write a function to determine if a string has all unique characters, without using additional data structures.
+
+def has_unique_chars(s):
+    # Assuming the string contains ASCII characters (256 possible characters)
+    if len(s) > 256:
+        return False
+
+    char_set = [False] * 256
     for char in s:
-        if char not in seen:
-            result.append(char)
-            seen.add(char)
-    return ''.join(result)
+        if char_set[ord(char)]:
+            return False
+        char_set[ord(char)] = True
+    return True
 
 # Example usage:
-print(remove_duplicates("aabbcc"))  # Output: "abc"
-print(remove_duplicates("abracadabra"))  # Output: "abrcd"
-
-
-#Dub_Number find in array:
-def find_duplicates(arr):
-    duplicates = []
-    seen = set()
-    for num in arr:
-        if num in seen:
-            duplicates.append(num)
-        else:
-            seen.add(num)
-    return duplicates
-
-# Example usage:
-arr = [1, 2, 3, 4, 5, 2, 3, 6]
-print(find_duplicates(arr))  # Output: [2, 3]
+print(has_unique_chars("abcde"))  # Output: True
+print(has_unique_chars("aabbcc")) # Output: False
