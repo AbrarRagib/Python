@@ -510,14 +510,79 @@
 
 
 
-def char_frequency(s):
-    freq_dict = {}
-    for char in s:
-        freq_dict[char] = freq_dict.get(char, 0) + 1
-    return freq_dict
+# def char_frequency(s):
+#     freq_dict = {}
+#     for char in s:
+#         freq_dict[char] = freq_dict.get(char, 0) + 1
+#     return freq_dict
 
-# Example usage:
-print(char_frequency("abracadabra"))  
-# Output: {'a': 5, 'b': 2, 'r': 2, 'c': 1, 'd': 1}
+# # Example usage:
+# print(char_frequency("abracadabra"))  
+# # Output: {'a': 5, 'b': 2, 'r': 2, 'c': 1, 'd': 1}
+
+
+
+
+
+
+
+
+
+
+
+
+
+# 17. Write a Python function that determines if two strings are isomorphic.
+
+# Example Input: "egg", "add"
+# Example Output: True (because 'e' maps to 'a' and 'g' maps to 'd' consistently)
+# Example Input: "foo", "bar"
+# Example Output: False (because 'o' maps to two different letters)
+
+
+
+
+def is_isomorphic(s, t):
+    if len(s) != len(t):
+        return False
+    
+    # Two dictionaries to store the character mappings from s to t and t to s
+    mapping_s_t = {}
+    mapping_t_s = {}
+    
+    for char_s, char_t in zip(s, t):
+        # Check the s -> t mapping
+        if char_s in mapping_s_t:
+            if mapping_s_t[char_s] != char_t:
+                return False
+        else:
+            mapping_s_t[char_s] = char_t
+        
+        # Check the t -> s mapping
+        if char_t in mapping_t_s:
+            if mapping_t_s[char_t] != char_s:
+                return False
+        else:
+            mapping_t_s[char_t] = char_s
+
+    return True
+
+# Test cases
+print(is_isomorphic("egg", "add"))  # Output: True
+print(is_isomorphic("foo", "bar"))  # Output: False
+print(is_isomorphic("paper", "title"))  # Output: True
+
+
+
+
+# easy:
+def is_isomorphic(s, t):
+    # The idea is to use two sets to verify unique mappings between characters in s and t
+    return len(set(s)) == len(set(t)) == len(set(zip(s, t)))
+
+# Test cases
+print(is_isomorphic("egg", "add"))    # Output: True
+print(is_isomorphic("foo", "bar"))    # Output: False
+print(is_isomorphic("paper", "title")) # Output: True
 
 
