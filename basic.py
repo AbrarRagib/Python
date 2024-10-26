@@ -158,21 +158,42 @@
 
 
 
-def reverse_array(arr):
-    return arr[::-1]
+# def reverse_array(arr):
+#     return arr[::-1]
+
+# # Example usage:
+# arr = [1, 2, 3, 4, 5]
+# print(reverse_array(arr))  # Output: [5, 4, 3, 2, 1]
+
+
+
+
+
+# 6. Count Vowels in a String
+# Problem: Write a function to count the number of vowels in a given string.
+
+
+def count_vowels(s):
+    vowels = "aeiouAEIOU"
+    count = 0
+    for char in s:
+        if char in vowels:
+            count += 1
+    return count
 
 # Example usage:
-arr = [1, 2, 3, 4, 5]
-print(reverse_array(arr))  # Output: [5, 4, 3, 2, 1]
+print(count_vowels("hello world"))  # Output: 3
 
 
+def count_vowels(s):
+    vowels = "aeiouAEIOU"
+    count = 0
+    for char in s:
+        if char in vowels:
+            count += 1 
+    return count
 
-
-
-
-
-
-
+print(count_vowels('ragib'))
 
 
 
