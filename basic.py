@@ -204,25 +204,69 @@
 # Problem: Write a function to calculate the sum of all even numbers in a given array.
 
 
-def sum_of_evens(arr):
-    return sum(num for num in arr if num % 2 == 0)
+# def sum_of_evens(arr):
+#     return sum(num for num in arr if num % 2 == 0)
 
-# Example usage:
-arr = [1, 2, 3, 4, 5, 6]
-print(sum_of_evens(arr))  # Output: 12
+# # Example usage:
+# arr = [1, 2, 3, 4, 5, 6]
+# print(sum_of_evens(arr))  # Output: 12
 
 
 
-#my way:
-def sum_of_even(arr):
-    add = 0
-    for num in arr:
-        if num % 2 == 0:
-            add += num
-    return add
+# #my way:
+# def sum_of_even(arr):
+#     add = 0
+#     for num in arr:
+#         if num % 2 == 0:
+#             add += num
+#     return add
     
 
-arr= [1,2,3,4,4]
-print(sum_of_even(arr))
+# arr= [1,2,3,4,4]
+# print(sum_of_even(arr))
+
+
+
+
+
+
+
+
+
+# 8.Anagram Problem
+# Problem: Write a function that checks if two strings are anagrams of each other. Two strings are considered anagrams if they contain the same characters in the same frequency but in any order. For example, "listen" and "silent" are anagrams.
+
+
+
+
+# def are_anagrams(str1, str2):
+#     # Remove spaces and convert to lowercase
+#     str1 = str1.replace(" ", "").lower()
+#     str2 = str2.replace(" ", "").lower()
+
+#     # Check if both strings have the same length
+#     if len(str1) != len(str2):
+#         return False
+
+#     # Sort both strings and compare
+#     return sorted(str1) == sorted(str2)
+
+# # Example usage:
+# print(are_anagrams("listen", "silent"))  # Output: True
+# print(are_anagrams("triangle", "integral"))  # Output: True
+# print(are_anagrams("hello", "world"))  # Output: False
+
+
+def are_anagrams(str1, str2):
+    str1 = str1.replace(" ","").lower()
+    str2 = str2.replace(" ","").lower()
+    
+    if len(str1)  != len(str2):
+        return False
+    return sorted(str1) == sorted(str2)
+
+print(are_anagrams('listen', 'silent'))
+
+
 
 
