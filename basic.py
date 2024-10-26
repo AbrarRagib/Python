@@ -185,15 +185,15 @@ def count_vowels(s):
 print(count_vowels("hello world"))  # Output: 3
 
 
-def count_vowels(s):
-    vowels = "aeiouAEIOU"
+
+
+
+
+def count_con(s):
+    cons = "bcdfghjklmnpqrstvzxyz"
     count = 0
     for char in s:
-        if char in vowels:
-            count += 1 
+        if char in cons:
+            count += 1
     return count
-
-print(count_vowels('ragib'))
-
-
-
+print(count_con('abrar ragib'))
