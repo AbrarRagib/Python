@@ -475,21 +475,49 @@
 
 
 
-15. Check if a String has All Unique Characters
-Problem: Write a function to determine if a string has all unique characters, without using additional data structures.
+# 15. Check if a String has All Unique Characters
+# Problem: Write a function to determine if a string has all unique characters, without using additional data structures.
 
-def has_unique_chars(s):
-    # Assuming the string contains ASCII characters (256 possible characters)
-    if len(s) > 256:
-        return False
+# def has_unique_chars(s):
+#     # Assuming the string contains ASCII characters (256 possible characters)
+#     if len(s) > 256:
+#         return False
 
-    char_set = [False] * 256
+#     char_set = [False] * 256
+#     for char in s:
+#         if char_set[ord(char)]:
+#             return False
+#         char_set[ord(char)] = True
+#     return True
+
+# # Example usage:
+# print(has_unique_chars("abcde"))  # Output: True
+# print(has_unique_chars("aabbcc")) # Output: 
+
+
+
+
+
+
+
+
+
+
+
+
+# 16. Count the Frequency of Characters in a String
+# Problem: Write a function that counts the frequency of each character in a string and returns a dictionary.
+
+
+
+def char_frequency(s):
+    freq_dict = {}
     for char in s:
-        if char_set[ord(char)]:
-            return False
-        char_set[ord(char)] = True
-    return True
+        freq_dict[char] = freq_dict.get(char, 0) + 1
+    return freq_dict
 
 # Example usage:
-print(has_unique_chars("abcde"))  # Output: True
-print(has_unique_chars("aabbcc")) # Output: False
+print(char_frequency("abracadabra"))  
+# Output: {'a': 5, 'b': 2, 'r': 2, 'c': 1, 'd': 1}
+
+
