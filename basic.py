@@ -632,25 +632,113 @@
 
 
 
-# 19. Write a Python function that checks if a given phone number is a valid Bangladeshi phone number. The function should return True if the number is valid, and False otherwise.
+# 19. Write a Python function that checks if a given phone number is a valid Bangladeshi phone number. The function should return True if the number is valid, and False otherwise. ***DSI
 
 
 
-import re
+# import re
 
-def is_valid_bd_number(phone_number):
-    # Define regular expressions for 11-digit national format and 13-digit international format with +880
-    pattern_11_digits = r"^(013|014|015|016|017|018|019)\d{8}$"      # For 11-digit numbers
-    pattern_13_digits = r"^\+880(13|14|15|16|17|18|19)\d{8}$"       # For 13-digit numbers with +880
+# def is_valid_bd_number(phone_number):
+#     # Define regular expressions for 11-digit national format and 13-digit international format with +880
+#     pattern_11_digits = r"^(013|014|015|016|017|018|019)\d{8}$"      # For 11-digit numbers
+#     pattern_13_digits = r"^\+880(13|14|15|16|17|18|19)\d{8}$"       # For 13-digit numbers with +880
 
-    # Check if the phone number matches either pattern
-    if re.match(pattern_11_digits, phone_number) or re.match(pattern_13_digits, phone_number):
-        return True
-    return False
+#     # Check if the phone number matches either pattern
+#     if re.match(pattern_11_digits, phone_number) or re.match(pattern_13_digits, phone_number):
+#         return True
+#     return False
+
+# # Test cases
+# print(is_valid_bd_number("01712345678"))  # True - 11-digit number
+# print(is_valid_bd_number("+8801712345678"))  # True - 13-digit number with +880
+# print(is_valid_bd_number("019123456"))  # False - not enough digits
+# print(is_valid_bd_number("02123456789"))  # False - invalid prefix
+# print(is_valid_bd_number("+880141234567"))  # False - not enough digits
+
+
+
+
+
+
+
+
+# 20. Two strings, s and t, are called isomorphic if the characters in s can be replaced to get t, preserving the order of characters. However, each character in s must map to a unique character in t. ***DSI
+
+
+
+# def is_isomorphic(s, t):
+#     if len(s) != len(t):
+#         return False
+
+#     # Two dictionaries to store mappings
+#     mapping_s_t = {}
+#     mapping_t_s = {}
+
+#     for char_s, char_t in zip(s, t):
+#         # Check s -> t mapping
+#         if char_s in mapping_s_t:
+#             if mapping_s_t[char_s] != char_t:
+#                 return False
+#         else:
+#             mapping_s_t[char_s] = char_t
+
+#         # Check t -> s mapping
+#         if char_t in mapping_t_s:
+#             if mapping_t_s[char_t] != char_s:
+#                 return False
+#         else:
+#             mapping_t_s[char_t] = char_s
+
+#     return True
+
+# # Test cases
+# print(is_isomorphic("egg", "add"))  # Output: True
+# print(is_isomorphic("foo", "bar"))  # Output: False
+# print(is_isomorphic("paper", "title"))  # Output: True
+# print(is_isomorphic("ab", "aa"))  # Output: False
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# 21. Write a function that checks if a given string is an isogram. The function should return True if the string is an isogram and False otherwise. For simplicity, ignore letter case and ignore spaces or hyphens. ***DSI
+
+
+
+def is_isogram(word):
+    # Convert to lowercase to ignore case
+    word = word.lower()
+    
+    # Use a set to store characters we encounter
+    seen = set()
+    
+    for char in word:
+        # Ignore spaces and hyphens
+        if char in (' ', '-'):
+            continue
+        # If character is already in set, it's a duplicate
+        if char in seen:
+            return False
+        seen.add(char)
+    
+    # If we complete the loop without duplicates, it's an isogram
+    return True
 
 # Test cases
-print(is_valid_bd_number("01712345678"))  # True - 11-digit number
-print(is_valid_bd_number("+8801712345678"))  # True - 13-digit number with +880
-print(is_valid_bd_number("019123456"))  # False - not enough digits
-print(is_valid_bd_number("02123456789"))  # False - invalid prefix
-print(is_valid_bd_number("+880141234567"))  # False - not enough digits
+print(is_isogram("machine"))          # Output: True
+print(is_isogram("programming"))      # Output: False
+print(is_isogram("Dermatoglyphics"))  # Output: True
+print(is_isogram("hello-world"))      # Output: False
+print(is_isogram("isogram"))          # Output: True
+
