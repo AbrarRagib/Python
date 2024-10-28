@@ -532,7 +532,7 @@
 
 
 
-# 17. Write a Python function that determines if two strings are isomorphic.
+# 17. Write a Python function that determines if two strings are isomorphic.***
 
 # Example Input: "egg", "add"
 # Example Output: True (because 'e' maps to 'a' and 'g' maps to 'd' consistently)
@@ -599,7 +599,7 @@
 
 
 
-# 18. Write a Python function that takes a string as input and returns a dictionary containing all the characters that appear more than once in the string along with their respective counts. If there are no repeated characters, the function should return an empty dictionary.
+# 18. Write a Python function that takes a string as input and returns a dictionary containing all the characters that appear more than once in the string along with their respective counts. If there are no repeated characters, the function should return an empty dictionary. ***
 
 
 # def find_repeated_chars(s):
@@ -624,3 +624,33 @@
 
 
 
+
+
+
+
+
+
+
+
+# 19. Write a Python function that checks if a given phone number is a valid Bangladeshi phone number. The function should return True if the number is valid, and False otherwise.
+
+
+
+import re
+
+def is_valid_bd_number(phone_number):
+    # Define regular expressions for 11-digit national format and 13-digit international format with +880
+    pattern_11_digits = r"^(013|014|015|016|017|018|019)\d{8}$"      # For 11-digit numbers
+    pattern_13_digits = r"^\+880(13|14|15|16|17|18|19)\d{8}$"       # For 13-digit numbers with +880
+
+    # Check if the phone number matches either pattern
+    if re.match(pattern_11_digits, phone_number) or re.match(pattern_13_digits, phone_number):
+        return True
+    return False
+
+# Test cases
+print(is_valid_bd_number("01712345678"))  # True - 11-digit number
+print(is_valid_bd_number("+8801712345678"))  # True - 13-digit number with +880
+print(is_valid_bd_number("019123456"))  # False - not enough digits
+print(is_valid_bd_number("02123456789"))  # False - invalid prefix
+print(is_valid_bd_number("+880141234567"))  # False - not enough digits
