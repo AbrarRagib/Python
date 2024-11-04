@@ -716,29 +716,29 @@
 
 
 
-def is_isogram(word):
-    # Convert to lowercase to ignore case
-    word = word.lower()
+# def is_isogram(word):
+#     # Convert to lowercase to ignore case
+#     word = word.lower()
     
-    # Use a set to store characters we encounter
-    seen = set()
+#     # Use a set to store characters we encounter
+#     seen = set()
     
-    for char in word:
-        # Ignore spaces and hyphens
-        if char in (' ', '-'):
-            continue
-        # If character is already in set, it's a duplicate
-        if char in seen:
-            return False
-        seen.add(char)
+#     for char in word:
+#         # Ignore spaces and hyphens
+#         if char in (' ', '-'):
+#             continue
+#         # If character is already in set, it's a duplicate
+#         if char in seen:
+#             return False
+#         seen.add(char)
     
-    # If we complete the loop without duplicates, it's an isogram
-    return True
+#     # If we complete the loop without duplicates, it's an isogram
+#     return True
 
-# Test cases
-print(is_isogram("machine"))          # Output: True
-print(is_isogram("programming"))      # Output: False
-print(is_isogram("Dermatoglyphics"))  # Output: True
-print(is_isogram("hello-world"))      # Output: False
-print(is_isogram("isogram"))          # Output: True
+# # Test cases
+# print(is_isogram("machine"))          # Output: True
+# print(is_isogram("programming"))      # Output: False
+# print(is_isogram("Dermatoglyphics"))  # Output: True
+# print(is_isogram("hello-world"))      # Output: False
+# print(is_isogram("isogram"))          # Output: True
 

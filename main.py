@@ -3414,7 +3414,20 @@ Comments, Escape Sequences & Print Statement
 
 
 
+name ="alice"
+age = 30
+print("Name:",name,"Age:",age, sep="|",end="\n")
 
+# # Explanation
+# # Variables:
+
+# # name is set to "alice".
+# # age is set to 30.
+# # print() function:
+
+# # sep="|" specifies that each argument within the print() function should be separated by a | symbol, instead of the default space.
+# # end="\n" means that the print statement will end with a newline character, which is the default behavior (\n is a line break).
+# # This results in each element in the print() function ("Name:", name, "Age:", and age) being separated by the | symbol in the output.
 
 
 
