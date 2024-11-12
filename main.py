@@ -3415,7 +3415,7 @@ Comments, Escape Sequences & Print Statement
 
 
 # name ="alice"
-# age = 31
+# age = 30
 # print("Name:",name,"Age:",age, sep="|",end="\n")
 
 # # Explanation
