@@ -3414,9 +3414,9 @@ Comments, Escape Sequences & Print Statement
 
 
 
-name ="alice"
-age = 30
-print("Name:",name,"Age:",age, sep="|",end="\n")
+# name ="alice"
+# age = 31
+# print("Name:",name,"Age:",age, sep="|",end="\n")
 
 # # Explanation
 # # Variables:
