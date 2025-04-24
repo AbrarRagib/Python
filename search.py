@@ -96,7 +96,7 @@ result = recursive_binary_search(arr, target, 0, len(arr) - 1)
 if result != -1:
     print(f"Element found at index {result}")
 else:
-    print("Element not found")
+    print("Element not found")   
 
 
 
