@@ -1,0 +1,609 @@
+2025-11-14 14:52:03,303 - INFO - 
+
+
+
+2025-11-14 14:52:03,303 - INFO - Processing foldera: p_twp_00000070.jpg
+2025-11-14 14:53:54,772 - INFO - Response has been received from endpoint.
+2025-11-14 14:53:54,772 - INFO - Processing foldera: p_twp_00000071.jpg
+2025-11-14 14:56:06,975 - INFO - Response has been received from endpoint.
+2025-11-14 14:56:06,975 - INFO - Processing foldera: p_twp_00000072.jpg
+2025-11-14 14:56:33,212 - INFO - Response has been received from endpoint.
+2025-11-14 14:56:33,212 - INFO - Processing foldera: p_twp_00000073.jpg
+2025-11-14 14:59:29,042 - INFO - Response has been received from endpoint.
+2025-11-14 14:59:29,043 - INFO - Processing foldera: p_twp_00000074.jpg
+2025-11-14 15:05:50,297 - INFO - Response has been received from endpoint.
+2025-11-14 15:05:50,297 - INFO - Processing foldera: p_twp_00000075.jpg
+2025-11-14 15:06:32,387 - INFO - Response has been received from endpoint.
+2025-11-14 15:06:32,387 - INFO - Processing foldera: p_twp_00000076.jpg
+2025-11-14 15:07:03,182 - INFO - Response has been received from endpoint.
+2025-11-14 15:07:03,182 - INFO - Processing foldera: p_twp_00000077.jpg
+2025-11-14 15:09:04,713 - INFO - Response has been received from endpoint.
+2025-11-14 15:09:04,714 - INFO - Processing foldera: p_twp_00000078.jpg
+2025-11-14 15:09:32,544 - INFO - Response has been received from endpoint.
+2025-11-14 15:09:32,544 - INFO - Processing foldera: p_twp_00000079.jpg
+2025-11-14 15:09:54,426 - INFO - Response has been received from endpoint.
+2025-11-18 09:39:07,109 - INFO - 
+
+
+
+2025-11-18 09:39:07,119 - INFO - Processing foldera: p_twp_00000080.jpg
+2025-11-18 09:39:35,533 - INFO - Response has been received from endpoint.
+2025-11-18 09:39:35,533 - INFO - Processing foldera: p_twp_00000081.jpg
+2025-11-18 09:44:40,174 - INFO - Error at p_twp_00000081.jpg: ('Connection aborted.', ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2025-11-18 09:44:40,174 - INFO - Processing foldera: p_twp_00000082.jpg
+2025-11-18 09:46:40,605 - INFO - Error at p_twp_00000082.jpg: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-11-18 09:46:40,621 - INFO - Processing foldera: p_twp_00000083.jpg
+2025-11-18 09:46:43,929 - INFO - Error: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx/1.24.0 (Ubuntu)</center>
+</body>
+</html>
+
+2025-11-18 09:46:43,930 - INFO - Response has been received from endpoint.
+2025-11-18 09:46:43,930 - INFO - Processing foldera: p_twp_00000084.jpg
+2025-11-18 09:46:47,743 - INFO - Error: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx/1.24.0 (Ubuntu)</center>
+</body>
+</html>
+
+2025-11-18 09:46:47,743 - INFO - Response has been received from endpoint.
+2025-11-18 09:46:47,744 - INFO - Processing foldera: p_twp_00000085.jpg
+2025-11-18 09:46:51,604 - INFO - Error: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx/1.24.0 (Ubuntu)</center>
+</body>
+</html>
+
+2025-11-18 09:46:51,604 - INFO - Response has been received from endpoint.
+2025-11-18 09:46:51,604 - INFO - Processing foldera: p_twp_00000086.jpg
+2025-11-18 09:46:55,868 - INFO - Error: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx/1.24.0 (Ubuntu)</center>
+</body>
+</html>
+
+2025-11-18 09:46:55,868 - INFO - Response has been received from endpoint.
+2025-11-18 09:46:55,868 - INFO - Processing foldera: p_twp_00000087.jpg
+2025-11-18 09:46:59,937 - INFO - Error: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx/1.24.0 (Ubuntu)</center>
+</body>
+</html>
+
+2025-11-18 09:46:59,937 - INFO - Response has been received from endpoint.
+2025-11-18 09:46:59,937 - INFO - Processing foldera: p_twp_00000088.jpg
+2025-11-18 09:47:03,989 - INFO - Error: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx/1.24.0 (Ubuntu)</center>
+</body>
+</html>
+
+2025-11-18 09:47:03,989 - INFO - Response has been received from endpoint.
+2025-11-18 09:47:03,990 - INFO - Processing foldera: p_twp_00000089.jpg
+2025-11-18 09:47:06,901 - INFO - Error: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx/1.24.0 (Ubuntu)</center>
+</body>
+</html>
+
+2025-11-18 09:47:06,901 - INFO - Response has been received from endpoint.
+2025-11-18 09:47:06,901 - INFO - Processing foldera: p_twp_00000090.jpg
+2025-11-18 09:47:10,815 - INFO - Error: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx/1.24.0 (Ubuntu)</center>
+</body>
+</html>
+
+2025-11-18 09:47:10,815 - INFO - Response has been received from endpoint.
+2025-11-18 09:47:10,815 - INFO - Processing foldera: p_twp_00000091.jpg
+2025-11-18 09:47:14,285 - INFO - Error: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx/1.24.0 (Ubuntu)</center>
+</body>
+</html>
+
+2025-11-18 09:47:14,285 - INFO - Response has been received from endpoint.
+2025-11-18 09:47:14,285 - INFO - Processing foldera: p_twp_00000092.jpg
+2025-11-18 09:47:17,766 - INFO - Error: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx/1.24.0 (Ubuntu)</center>
+</body>
+</html>
+
+2025-11-18 09:47:17,766 - INFO - Response has been received from endpoint.
+2025-11-18 09:47:17,766 - INFO - Processing foldera: p_twp_00000093.jpg
+2025-11-18 09:47:20,693 - INFO - Error: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx/1.24.0 (Ubuntu)</center>
+</body>
+</html>
+
+2025-11-18 09:47:20,693 - INFO - Response has been received from endpoint.
+2025-11-18 09:47:20,694 - INFO - Processing foldera: p_twp_00000094.jpg
+2025-11-18 09:47:24,495 - INFO - Error: <html>
+<head><title>502 Bad Gateway</title></head>
+<body>
+<center><h1>502 Bad Gateway</h1></center>
+<hr><center>nginx/1.24.0 (Ubuntu)</center>
+</body>
+</html>
+
+2025-11-18 09:47:24,496 - INFO - Response has been received from endpoint.
+2025-11-18 09:47:24,496 - INFO - Processing foldera: p_twp_00000095.jpg
+2025-11-18 09:51:32,260 - INFO - Response has been received from endpoint.
+2025-11-18 09:51:32,260 - INFO - Processing foldera: p_twp_00000096.jpg
+2025-11-18 09:54:32,552 - INFO - Error at p_twp_00000096.jpg: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+2025-11-18 09:54:32,553 - INFO - Processing foldera: p_twp_00000097.jpg
+2025-11-18 09:55:05,303 - INFO - Response has been received from endpoint.
+2025-11-18 09:55:05,303 - INFO - Processing foldera: p_twp_00000098.jpg
+2025-11-18 09:55:32,410 - INFO - Response has been received from endpoint.
+2025-11-18 09:55:32,410 - INFO - Processing foldera: p_twp_00000099.jpg
+2025-11-18 09:55:59,506 - INFO - Response has been received from endpoint.
+2025-11-18 10:00:50,070 - INFO - 
+
+
+
+2025-11-18 10:00:50,070 - INFO - Processing foldera: p_twp_00000080.jpg
+2025-11-18 10:00:50,070 - INFO - Already exists: p_twp_00000080.zip
+2025-11-18 10:00:50,070 - INFO - Response has been received from endpoint.
+2025-11-18 10:00:50,070 - INFO - Processing foldera: p_twp_00000081.jpg
+2025-11-18 10:02:50,464 - INFO - Response has been received from endpoint.
+2025-11-18 10:02:50,464 - INFO - Processing foldera: p_twp_00000082.jpg
+2025-11-18 10:03:14,760 - INFO - Response has been received from endpoint.
+2025-11-18 10:03:14,760 - INFO - Processing foldera: p_twp_00000083.jpg
+2025-11-18 10:03:44,273 - INFO - Response has been received from endpoint.
+2025-11-18 10:03:44,273 - INFO - Processing foldera: p_twp_00000084.jpg
+2025-11-18 10:04:13,628 - INFO - Response has been received from endpoint.
+2025-11-18 10:04:13,628 - INFO - Processing foldera: p_twp_00000085.jpg
+2025-11-18 10:04:46,151 - INFO - Response has been received from endpoint.
+2025-11-18 10:04:46,151 - INFO - Processing foldera: p_twp_00000086.jpg
+2025-11-18 10:05:29,772 - INFO - Error at p_twp_00000086.jpg: Response ended prematurely
+2025-11-18 10:05:29,772 - INFO - Processing foldera: p_twp_00000087.jpg
+2025-11-18 10:06:09,661 - INFO - Response has been received from endpoint.
+2025-11-18 10:06:09,661 - INFO - Processing foldera: p_twp_00000088.jpg
+2025-11-18 10:10:15,525 - INFO - Response has been received from endpoint.
+2025-11-18 10:10:15,525 - INFO - Processing foldera: p_twp_00000089.jpg
+2025-11-18 10:16:50,593 - INFO - Response has been received from endpoint.
+2025-11-18 10:16:50,593 - INFO - Processing foldera: p_twp_00000090.jpg
+2025-11-18 10:21:13,558 - INFO - Response has been received from endpoint.
+2025-11-18 10:21:13,558 - INFO - Processing foldera: p_twp_00000091.jpg
+2025-11-18 10:23:13,199 - INFO - Response has been received from endpoint.
+2025-11-18 10:23:13,199 - INFO - Processing foldera: p_twp_00000092.jpg
+2025-11-18 10:23:42,886 - INFO - Response has been received from endpoint.
+2025-11-18 10:23:42,886 - INFO - Processing foldera: p_twp_00000093.jpg
+2025-11-18 10:24:06,619 - INFO - Response has been received from endpoint.
+2025-11-18 10:24:06,619 - INFO - Processing foldera: p_twp_00000094.jpg
+2025-11-18 10:24:39,103 - INFO - Response has been received from endpoint.
+2025-11-18 10:24:39,103 - INFO - Processing foldera: p_twp_00000095.jpg
+2025-11-18 10:24:39,103 - INFO - Already exists: p_twp_00000095.zip
+2025-11-18 10:24:39,103 - INFO - Response has been received from endpoint.
+2025-11-18 10:24:39,103 - INFO - Processing foldera: p_twp_00000096.jpg
+2025-11-18 10:25:07,448 - INFO - Response has been received from endpoint.
+2025-11-18 10:25:07,448 - INFO - Processing foldera: p_twp_00000097.jpg
+2025-11-18 10:25:07,448 - INFO - Already exists: p_twp_00000097.zip
+2025-11-18 10:25:07,448 - INFO - Response has been received from endpoint.
+2025-11-18 10:25:07,448 - INFO - Processing foldera: p_twp_00000098.jpg
+2025-11-18 10:25:07,448 - INFO - Already exists: p_twp_00000098.zip
+2025-11-18 10:25:07,448 - INFO - Response has been received from endpoint.
+2025-11-18 10:25:07,448 - INFO - Processing foldera: p_twp_00000099.jpg
+2025-11-18 10:25:07,448 - INFO - Already exists: p_twp_00000099.zip
+2025-11-18 10:25:07,448 - INFO - Response has been received from endpoint.
+2025-11-18 10:28:05,701 - INFO - 
+
+
+
+2025-11-18 10:28:05,701 - INFO - Processing foldera: p_twp_00000080.jpg
+2025-11-18 10:28:05,701 - INFO - Already exists: p_twp_00000080.zip
+2025-11-18 10:28:05,701 - INFO - Response has been received from endpoint.
+2025-11-18 10:28:05,701 - INFO - Processing foldera: p_twp_00000081.jpg
+2025-11-18 10:28:05,701 - INFO - Already exists: p_twp_00000081.zip
+2025-11-18 10:28:05,701 - INFO - Response has been received from endpoint.
+2025-11-18 10:28:05,701 - INFO - Processing foldera: p_twp_00000082.jpg
+2025-11-18 10:28:05,701 - INFO - Already exists: p_twp_00000082.zip
+2025-11-18 10:28:05,701 - INFO - Response has been received from endpoint.
+2025-11-18 10:28:05,701 - INFO - Processing foldera: p_twp_00000083.jpg
+2025-11-18 10:28:05,701 - INFO - Already exists: p_twp_00000083.zip
+2025-11-18 10:28:05,701 - INFO - Response has been received from endpoint.
+2025-11-18 10:28:05,701 - INFO - Processing foldera: p_twp_00000084.jpg
+2025-11-18 10:28:05,701 - INFO - Already exists: p_twp_00000084.zip
+2025-11-18 10:28:05,701 - INFO - Response has been received from endpoint.
+2025-11-18 10:28:05,701 - INFO - Processing foldera: p_twp_00000085.jpg
+2025-11-18 10:28:05,701 - INFO - Already exists: p_twp_00000085.zip
+2025-11-18 10:28:05,701 - INFO - Response has been received from endpoint.
+2025-11-18 10:28:05,701 - INFO - Processing foldera: p_twp_00000086.jpg
+2025-11-18 10:29:12,316 - INFO - Response has been received from endpoint.
+2025-11-18 10:29:12,317 - INFO - Processing foldera: p_twp_00000087.jpg
+2025-11-18 10:29:12,317 - INFO - Already exists: p_twp_00000087.zip
+2025-11-18 10:29:12,317 - INFO - Response has been received from endpoint.
+2025-11-18 10:29:12,317 - INFO - Processing foldera: p_twp_00000088.jpg
+2025-11-18 10:29:12,317 - INFO - Already exists: p_twp_00000088.zip
+2025-11-18 10:29:12,317 - INFO - Response has been received from endpoint.
+2025-11-18 10:29:12,317 - INFO - Processing foldera: p_twp_00000089.jpg
+2025-11-18 10:29:12,317 - INFO - Already exists: p_twp_00000089.zip
+2025-11-18 10:29:12,317 - INFO - Response has been received from endpoint.
+2025-11-18 10:29:12,317 - INFO - Processing foldera: p_twp_00000090.jpg
+2025-11-18 10:29:12,317 - INFO - Already exists: p_twp_00000090.zip
+2025-11-18 10:29:12,317 - INFO - Response has been received from endpoint.
+2025-11-18 10:29:12,317 - INFO - Processing foldera: p_twp_00000091.jpg
+2025-11-18 10:29:12,318 - INFO - Already exists: p_twp_00000091.zip
+2025-11-18 10:29:12,318 - INFO - Response has been received from endpoint.
+2025-11-18 10:29:12,318 - INFO - Processing foldera: p_twp_00000092.jpg
+2025-11-18 10:29:12,318 - INFO - Already exists: p_twp_00000092.zip
+2025-11-18 10:29:12,318 - INFO - Response has been received from endpoint.
+2025-11-18 10:29:12,318 - INFO - Processing foldera: p_twp_00000093.jpg
+2025-11-18 10:29:12,318 - INFO - Already exists: p_twp_00000093.zip
+2025-11-18 10:29:12,318 - INFO - Response has been received from endpoint.
+2025-11-18 10:29:12,318 - INFO - Processing foldera: p_twp_00000094.jpg
+2025-11-18 10:29:12,318 - INFO - Already exists: p_twp_00000094.zip
+2025-11-18 10:29:12,318 - INFO - Response has been received from endpoint.
+2025-11-18 10:29:12,318 - INFO - Processing foldera: p_twp_00000095.jpg
+2025-11-18 10:29:12,318 - INFO - Already exists: p_twp_00000095.zip
+2025-11-18 10:29:12,318 - INFO - Response has been received from endpoint.
+2025-11-18 10:29:12,318 - INFO - Processing foldera: p_twp_00000096.jpg
+2025-11-18 10:29:12,318 - INFO - Already exists: p_twp_00000096.zip
+2025-11-18 10:29:12,318 - INFO - Response has been received from endpoint.
+2025-11-18 10:29:12,319 - INFO - Processing foldera: p_twp_00000097.jpg
+2025-11-18 10:29:12,319 - INFO - Already exists: p_twp_00000097.zip
+2025-11-18 10:29:12,319 - INFO - Response has been received from endpoint.
+2025-11-18 10:29:12,319 - INFO - Processing foldera: p_twp_00000098.jpg
+2025-11-18 10:29:12,319 - INFO - Already exists: p_twp_00000098.zip
+2025-11-18 10:29:12,319 - INFO - Response has been received from endpoint.
+2025-11-18 10:29:12,319 - INFO - Processing foldera: p_twp_00000099.jpg
+2025-11-18 10:29:12,319 - INFO - Already exists: p_twp_00000099.zip
+2025-11-18 10:29:12,319 - INFO - Response has been received from endpoint.
+2025-11-18 10:32:24,062 - INFO - 
+
+
+
+2025-11-18 10:32:24,062 - INFO - Processing foldera: p_twp_00000080.jpg
+2025-11-18 10:32:24,063 - INFO - Already exists: p_twp_00000080.zip
+2025-11-18 10:32:24,063 - INFO - Response has been received from endpoint.
+2025-11-18 10:32:24,063 - INFO - Processing foldera: p_twp_00000081.jpg
+2025-11-18 10:32:24,063 - INFO - Already exists: p_twp_00000081.zip
+2025-11-18 10:32:24,063 - INFO - Response has been received from endpoint.
+2025-11-18 10:32:24,063 - INFO - Processing foldera: p_twp_00000082.jpg
+2025-11-18 10:32:24,063 - INFO - Already exists: p_twp_00000082.zip
+2025-11-18 10:32:24,063 - INFO - Response has been received from endpoint.
+2025-11-18 10:32:24,063 - INFO - Processing foldera: p_twp_00000083.jpg
+2025-11-18 10:32:24,063 - INFO - Already exists: p_twp_00000083.zip
+2025-11-18 10:32:24,063 - INFO - Response has been received from endpoint.
+2025-11-18 10:32:24,063 - INFO - Processing foldera: p_twp_00000084.jpg
+2025-11-18 10:32:24,064 - INFO - Already exists: p_twp_00000084.zip
+2025-11-18 10:32:24,064 - INFO - Response has been received from endpoint.
+2025-11-18 10:32:24,064 - INFO - Processing foldera: p_twp_00000085.jpg
+2025-11-18 10:32:24,064 - INFO - Already exists: p_twp_00000085.zip
+2025-11-18 10:32:24,064 - INFO - Response has been received from endpoint.
+2025-11-18 10:32:24,064 - INFO - Processing foldera: p_twp_00000086.jpg
+2025-11-18 10:32:24,064 - INFO - Already exists: p_twp_00000086.zip
+2025-11-18 10:32:24,065 - INFO - Response has been received from endpoint.
+2025-11-18 10:32:24,065 - INFO - Processing foldera: p_twp_00000087.jpg
+2025-11-18 10:32:24,065 - INFO - Already exists: p_twp_00000087.zip
+2025-11-18 10:32:24,065 - INFO - Response has been received from endpoint.
+2025-11-18 10:32:24,065 - INFO - Processing foldera: p_twp_00000088.jpg
+2025-11-18 10:32:24,065 - INFO - Already exists: p_twp_00000088.zip
+2025-11-18 10:32:24,065 - INFO - Response has been received from endpoint.
+2025-11-18 10:32:24,065 - INFO - Processing foldera: p_twp_00000089.jpg
+2025-11-18 10:32:24,065 - INFO - Already exists: p_twp_00000089.zip
+2025-11-18 10:32:24,065 - INFO - Response has been received from endpoint.
+2025-11-18 10:32:24,065 - INFO - Processing foldera: p_twp_00000090.jpg
+2025-11-18 10:32:24,065 - INFO - Already exists: p_twp_00000090.zip
+2025-11-18 10:32:24,065 - INFO - Response has been received from endpoint.
+2025-11-18 10:32:24,065 - INFO - Processing foldera: p_twp_00000091.jpg
+2025-11-18 10:32:24,066 - INFO - Already exists: p_twp_00000091.zip
+2025-11-18 10:32:24,066 - INFO - Response has been received from endpoint.
+2025-11-18 10:32:24,066 - INFO - Processing foldera: p_twp_00000092.jpg
+2025-11-18 10:32:24,066 - INFO - Already exists: p_twp_00000092.zip
+2025-11-18 10:32:24,066 - INFO - Response has been received from endpoint.
+2025-11-18 10:32:24,066 - INFO - Processing foldera: p_twp_00000093.jpg
+2025-11-18 10:32:24,066 - INFO - Already exists: p_twp_00000093.zip
+2025-11-18 10:32:24,066 - INFO - Response has been received from endpoint.
+2025-11-18 10:32:24,066 - INFO - Processing foldera: p_twp_00000094.jpg
+2025-11-18 10:32:24,066 - INFO - Already exists: p_twp_00000094.zip
+2025-11-18 10:32:24,066 - INFO - Response has been received from endpoint.
+2025-11-18 10:32:24,066 - INFO - Processing foldera: p_twp_00000095.jpg
+2025-11-18 10:32:24,066 - INFO - Already exists: p_twp_00000095.zip
+2025-11-18 10:32:24,066 - INFO - Response has been received from endpoint.
+2025-11-18 10:32:24,067 - INFO - Processing foldera: p_twp_00000096.jpg
+2025-11-18 10:32:24,067 - INFO - Already exists: p_twp_00000096.zip
+2025-11-18 10:32:24,067 - INFO - Response has been received from endpoint.
+2025-11-18 10:32:24,067 - INFO - Processing foldera: p_twp_00000097.jpg
+2025-11-18 10:32:24,067 - INFO - Already exists: p_twp_00000097.zip
+2025-11-18 10:32:24,067 - INFO - Response has been received from endpoint.
+2025-11-18 10:32:24,067 - INFO - Processing foldera: p_twp_00000098.jpg
+2025-11-18 10:32:24,067 - INFO - Already exists: p_twp_00000098.zip
+2025-11-18 10:32:24,067 - INFO - Response has been received from endpoint.
+2025-11-18 10:32:24,067 - INFO - Processing foldera: p_twp_00000099.jpg
+2025-11-18 10:32:24,067 - INFO - Already exists: p_twp_00000099.zip
+2025-11-18 10:32:24,067 - INFO - Response has been received from endpoint.
+2025-11-18 10:32:56,528 - INFO - 
+
+
+
+2025-11-18 10:32:56,528 - INFO - Processing foldera: p_twp_00000080.jpg
+2025-11-18 10:32:56,529 - INFO - Already exists: p_twp_00000080.zip
+2025-11-18 10:32:56,529 - INFO - Response has been received from endpoint.
+2025-11-18 10:32:56,529 - INFO - Processing foldera: p_twp_00000081.jpg
+2025-11-18 10:32:56,529 - INFO - Already exists: p_twp_00000081.zip
+2025-11-18 10:32:56,529 - INFO - Response has been received from endpoint.
+2025-11-18 10:32:56,529 - INFO - Processing foldera: p_twp_00000082.jpg
+2025-11-18 10:32:56,529 - INFO - Already exists: p_twp_00000082.zip
+2025-11-18 10:32:56,529 - INFO - Response has been received from endpoint.
+2025-11-18 10:32:56,529 - INFO - Processing foldera: p_twp_00000083.jpg
+2025-11-18 10:32:56,529 - INFO - Already exists: p_twp_00000083.zip
+2025-11-18 10:32:56,529 - INFO - Response has been received from endpoint.
+2025-11-18 10:32:56,529 - INFO - Processing foldera: p_twp_00000084.jpg
+2025-11-18 10:32:56,530 - INFO - Already exists: p_twp_00000084.zip
+2025-11-18 10:32:56,530 - INFO - Response has been received from endpoint.
+2025-11-18 10:32:56,530 - INFO - Processing foldera: p_twp_00000085.jpg
+2025-11-18 10:32:56,530 - INFO - Already exists: p_twp_00000085.zip
+2025-11-18 10:32:56,530 - INFO - Response has been received from endpoint.
+2025-11-18 10:32:56,530 - INFO - Processing foldera: p_twp_00000086.jpg
+2025-11-18 10:32:56,530 - INFO - Already exists: p_twp_00000086.zip
+2025-11-18 10:32:56,530 - INFO - Response has been received from endpoint.
+2025-11-18 10:32:56,530 - INFO - Processing foldera: p_twp_00000087.jpg
+2025-11-18 10:32:56,530 - INFO - Already exists: p_twp_00000087.zip
+2025-11-18 10:32:56,530 - INFO - Response has been received from endpoint.
+2025-11-18 10:32:56,530 - INFO - Processing foldera: p_twp_00000088.jpg
+2025-11-18 10:32:56,530 - INFO - Already exists: p_twp_00000088.zip
+2025-11-18 10:32:56,530 - INFO - Response has been received from endpoint.
+2025-11-18 10:32:56,530 - INFO - Processing foldera: p_twp_00000089.jpg
+2025-11-18 10:32:56,531 - INFO - Already exists: p_twp_00000089.zip
+2025-11-18 10:32:56,531 - INFO - Response has been received from endpoint.
+2025-11-18 10:32:56,531 - INFO - Processing foldera: p_twp_00000090.jpg
+2025-11-18 10:32:56,531 - INFO - Already exists: p_twp_00000090.zip
+2025-11-18 10:32:56,531 - INFO - Response has been received from endpoint.
+2025-11-18 10:32:56,531 - INFO - Processing foldera: p_twp_00000091.jpg
+2025-11-18 10:32:56,531 - INFO - Already exists: p_twp_00000091.zip
+2025-11-18 10:32:56,531 - INFO - Response has been received from endpoint.
+2025-11-18 10:32:56,531 - INFO - Processing foldera: p_twp_00000092.jpg
+2025-11-18 10:32:56,531 - INFO - Already exists: p_twp_00000092.zip
+2025-11-18 10:32:56,531 - INFO - Response has been received from endpoint.
+2025-11-18 10:32:56,531 - INFO - Processing foldera: p_twp_00000093.jpg
+2025-11-18 10:32:56,531 - INFO - Already exists: p_twp_00000093.zip
+2025-11-18 10:32:56,531 - INFO - Response has been received from endpoint.
+2025-11-18 10:32:56,531 - INFO - Processing foldera: p_twp_00000094.jpg
+2025-11-18 10:32:56,532 - INFO - Already exists: p_twp_00000094.zip
+2025-11-18 10:32:56,532 - INFO - Response has been received from endpoint.
+2025-11-18 10:32:56,532 - INFO - Processing foldera: p_twp_00000095.jpg
+2025-11-18 10:32:56,532 - INFO - Already exists: p_twp_00000095.zip
+2025-11-18 10:32:56,532 - INFO - Response has been received from endpoint.
+2025-11-18 10:32:56,532 - INFO - Processing foldera: p_twp_00000096.jpg
+2025-11-18 10:32:56,532 - INFO - Already exists: p_twp_00000096.zip
+2025-11-18 10:32:56,532 - INFO - Response has been received from endpoint.
+2025-11-18 10:32:56,532 - INFO - Processing foldera: p_twp_00000097.jpg
+2025-11-18 10:32:56,532 - INFO - Already exists: p_twp_00000097.zip
+2025-11-18 10:32:56,532 - INFO - Response has been received from endpoint.
+2025-11-18 10:32:56,532 - INFO - Processing foldera: p_twp_00000098.jpg
+2025-11-18 10:32:56,532 - INFO - Already exists: p_twp_00000098.zip
+2025-11-18 10:32:56,532 - INFO - Response has been received from endpoint.
+2025-11-18 10:32:56,532 - INFO - Processing foldera: p_twp_00000099.jpg
+2025-11-18 10:32:56,533 - INFO - Already exists: p_twp_00000099.zip
+2025-11-18 10:32:56,533 - INFO - Response has been received from endpoint.
+2025-11-18 10:33:09,913 - INFO - 
+
+
+
+2025-11-18 10:33:09,913 - INFO - Processing foldera: p_twp_00000080.jpg
+2025-11-18 10:33:09,914 - INFO - Already exists: p_twp_00000080.zip
+2025-11-18 10:33:09,914 - INFO - Response has been received from endpoint.
+2025-11-18 10:33:09,914 - INFO - Processing foldera: p_twp_00000081.jpg
+2025-11-18 10:33:09,914 - INFO - Already exists: p_twp_00000081.zip
+2025-11-18 10:33:09,914 - INFO - Response has been received from endpoint.
+2025-11-18 10:33:09,914 - INFO - Processing foldera: p_twp_00000082.jpg
+2025-11-18 10:33:09,914 - INFO - Already exists: p_twp_00000082.zip
+2025-11-18 10:33:09,914 - INFO - Response has been received from endpoint.
+2025-11-18 10:33:09,914 - INFO - Processing foldera: p_twp_00000083.jpg
+2025-11-18 10:33:09,914 - INFO - Already exists: p_twp_00000083.zip
+2025-11-18 10:33:09,914 - INFO - Response has been received from endpoint.
+2025-11-18 10:33:09,914 - INFO - Processing foldera: p_twp_00000084.jpg
+2025-11-18 10:33:09,914 - INFO - Already exists: p_twp_00000084.zip
+2025-11-18 10:33:09,915 - INFO - Response has been received from endpoint.
+2025-11-18 10:33:09,915 - INFO - Processing foldera: p_twp_00000085.jpg
+2025-11-18 10:33:09,915 - INFO - Already exists: p_twp_00000085.zip
+2025-11-18 10:33:09,915 - INFO - Response has been received from endpoint.
+2025-11-18 10:33:09,915 - INFO - Processing foldera: p_twp_00000086.jpg
+2025-11-18 10:33:09,915 - INFO - Already exists: p_twp_00000086.zip
+2025-11-18 10:33:09,915 - INFO - Response has been received from endpoint.
+2025-11-18 10:33:09,915 - INFO - Processing foldera: p_twp_00000087.jpg
+2025-11-18 10:33:09,915 - INFO - Already exists: p_twp_00000087.zip
+2025-11-18 10:33:09,915 - INFO - Response has been received from endpoint.
+2025-11-18 10:33:09,915 - INFO - Processing foldera: p_twp_00000088.jpg
+2025-11-18 10:33:09,915 - INFO - Already exists: p_twp_00000088.zip
+2025-11-18 10:33:09,915 - INFO - Response has been received from endpoint.
+2025-11-18 10:33:09,915 - INFO - Processing foldera: p_twp_00000089.jpg
+2025-11-18 10:33:09,915 - INFO - Already exists: p_twp_00000089.zip
+2025-11-18 10:33:09,915 - INFO - Response has been received from endpoint.
+2025-11-18 10:33:09,916 - INFO - Processing foldera: p_twp_00000090.jpg
+2025-11-18 10:33:09,916 - INFO - Already exists: p_twp_00000090.zip
+2025-11-18 10:33:09,916 - INFO - Response has been received from endpoint.
+2025-11-18 10:33:09,916 - INFO - Processing foldera: p_twp_00000091.jpg
+2025-11-18 10:33:09,916 - INFO - Already exists: p_twp_00000091.zip
+2025-11-18 10:33:09,916 - INFO - Response has been received from endpoint.
+2025-11-18 10:33:09,916 - INFO - Processing foldera: p_twp_00000092.jpg
+2025-11-18 10:33:09,916 - INFO - Already exists: p_twp_00000092.zip
+2025-11-18 10:33:09,916 - INFO - Response has been received from endpoint.
+2025-11-18 10:33:09,916 - INFO - Processing foldera: p_twp_00000093.jpg
+2025-11-18 10:33:09,916 - INFO - Already exists: p_twp_00000093.zip
+2025-11-18 10:33:09,916 - INFO - Response has been received from endpoint.
+2025-11-18 10:33:09,916 - INFO - Processing foldera: p_twp_00000094.jpg
+2025-11-18 10:33:09,916 - INFO - Already exists: p_twp_00000094.zip
+2025-11-18 10:33:09,916 - INFO - Response has been received from endpoint.
+2025-11-18 10:33:09,917 - INFO - Processing foldera: p_twp_00000095.jpg
+2025-11-18 10:33:09,917 - INFO - Already exists: p_twp_00000095.zip
+2025-11-18 10:33:09,917 - INFO - Response has been received from endpoint.
+2025-11-18 10:33:09,917 - INFO - Processing foldera: p_twp_00000096.jpg
+2025-11-18 10:33:09,918 - INFO - Already exists: p_twp_00000096.zip
+2025-11-18 10:33:09,918 - INFO - Response has been received from endpoint.
+2025-11-18 10:33:09,918 - INFO - Processing foldera: p_twp_00000097.jpg
+2025-11-18 10:33:09,918 - INFO - Already exists: p_twp_00000097.zip
+2025-11-18 10:33:09,919 - INFO - Response has been received from endpoint.
+2025-11-18 10:33:09,919 - INFO - Processing foldera: p_twp_00000098.jpg
+2025-11-18 10:33:09,919 - INFO - Already exists: p_twp_00000098.zip
+2025-11-18 10:33:09,919 - INFO - Response has been received from endpoint.
+2025-11-18 10:33:09,919 - INFO - Processing foldera: p_twp_00000099.jpg
+2025-11-18 10:33:09,919 - INFO - Already exists: p_twp_00000099.zip
+2025-11-18 10:33:09,919 - INFO - Response has been received from endpoint.
+2025-11-18 10:34:39,070 - INFO - 
+
+
+
+2025-11-18 10:34:39,071 - INFO - Processing foldera: p_twp_00000100.jpg
+2025-11-18 10:35:11,107 - INFO - Response has been received from endpoint.
+2025-11-18 10:35:11,107 - INFO - Processing foldera: p_twp_00000101.jpg
+2025-11-18 10:35:43,075 - INFO - Response has been received from endpoint.
+2025-11-18 10:35:43,075 - INFO - Processing foldera: p_twp_00000102.jpg
+2025-11-18 10:39:09,748 - INFO - Response has been received from endpoint.
+2025-11-18 10:39:09,749 - INFO - Processing foldera: p_twp_00000103.jpg
+2025-11-18 10:39:32,296 - INFO - Response has been received from endpoint.
+2025-11-18 10:39:32,296 - INFO - Processing foldera: p_twp_00000104.jpg
+2025-11-18 10:39:55,317 - INFO - Response has been received from endpoint.
+2025-11-18 10:39:55,317 - INFO - Processing foldera: p_twp_00000105.jpg
+2025-11-18 10:40:18,171 - INFO - Response has been received from endpoint.
+2025-11-18 10:40:18,171 - INFO - Processing foldera: p_twp_00000106.jpg
+2025-11-18 10:40:41,693 - INFO - Response has been received from endpoint.
+2025-11-18 10:40:41,693 - INFO - Processing foldera: p_twp_00000107.jpg
+2025-11-18 10:41:11,973 - INFO - Response has been received from endpoint.
+2025-11-18 10:41:11,973 - INFO - Processing foldera: p_twp_00000108.jpg
+2025-11-18 10:41:39,396 - INFO - Response has been received from endpoint.
+2025-11-18 10:41:39,396 - INFO - Processing foldera: p_twp_00000109.jpg
+2025-11-18 10:42:06,608 - INFO - Response has been received from endpoint.
+2025-11-18 11:11:03,646 - INFO - 
+
+
+
+2025-11-18 11:11:03,648 - INFO - Processing foldera: p_twp_00000110.jpg
+2025-11-18 11:11:29,499 - INFO - Response has been received from endpoint.
+2025-11-18 11:11:29,499 - INFO - Processing foldera: p_twp_00000111.jpg
+2025-11-18 11:11:55,609 - INFO - Response has been received from endpoint.
+2025-11-18 11:11:55,610 - INFO - Processing foldera: p_twp_00000113.jpg
+2025-11-18 11:12:28,292 - INFO - Response has been received from endpoint.
+2025-11-18 11:12:28,293 - INFO - Processing foldera: p_twp_00000114.jpg
+2025-11-18 11:12:55,878 - INFO - Response has been received from endpoint.
+2025-11-18 11:12:55,879 - INFO - Processing foldera: p_twp_00000115.jpg
+2025-11-18 11:13:28,385 - INFO - Response has been received from endpoint.
+2025-11-18 11:13:28,386 - INFO - Processing foldera: p_twp_00000118.jpg
+2025-11-18 11:13:56,434 - INFO - Response has been received from endpoint.
+2025-11-18 11:13:56,434 - INFO - Processing foldera: p_twp_00000119.jpg
+2025-11-18 11:14:21,253 - INFO - Response has been received from endpoint.
+2025-11-18 11:14:21,253 - INFO - Processing foldera: p_twp_00000120.jpg
+2025-11-18 11:17:48,053 - INFO - Response has been received from endpoint.
+2025-11-18 11:17:48,053 - INFO - Processing foldera: p_twp_00000121.jpg
+2025-11-18 11:18:09,937 - INFO - Response has been received from endpoint.
+2025-11-18 11:18:09,937 - INFO - Processing foldera: p_twp_00000122.jpg
+2025-11-18 11:18:46,246 - INFO - Response has been received from endpoint.
+2025-11-18 11:18:46,246 - INFO - Processing foldera: p_twp_00000123.jpg
+2025-11-18 11:19:23,472 - INFO - Response has been received from endpoint.
+2025-11-18 11:19:23,472 - INFO - Processing foldera: p_twp_00000124.jpg
+2025-11-18 11:19:52,863 - INFO - Error at p_twp_00000124.jpg: ("Connection broken: ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None)", ConnectionResetError(10054, 'An existing connection was forcibly closed by the remote host', None, 10054, None))
+2025-11-18 11:19:52,864 - INFO - Processing foldera: p_twp_00000125.jpg
+2025-11-18 11:20:19,255 - INFO - Response has been received from endpoint.
+2025-11-18 11:20:19,255 - INFO - Processing foldera: p_twp_00000126.jpg
+2025-11-18 11:21:02,846 - INFO - Response has been received from endpoint.
+2025-11-18 11:21:02,846 - INFO - Processing foldera: p_twp_00000127.jpg
+2025-11-18 11:21:32,485 - INFO - Response has been received from endpoint.
+2025-11-18 11:21:32,485 - INFO - Processing foldera: p_twp_00000128.jpg
+2025-11-18 11:23:22,351 - INFO - Response has been received from endpoint.
+2025-11-18 11:23:22,351 - INFO - Processing foldera: p_twp_00000129.jpg
+2025-11-18 11:26:24,135 - INFO - Response has been received from endpoint.
+2025-11-18 11:26:24,135 - INFO - Processing foldera: p_twp_00000130.jpg
+2025-11-18 11:26:41,317 - INFO - Response has been received from endpoint.
+2025-11-18 11:26:41,317 - INFO - Processing foldera: p_twp_00000131.jpg
+2025-11-18 11:27:10,333 - INFO - Response has been received from endpoint.
+2025-11-18 11:27:10,333 - INFO - Processing foldera: p_twp_00000132.jpg
+2025-11-18 11:27:34,641 - INFO - Response has been received from endpoint.
+2025-11-18 11:49:14,143 - INFO - 
+
+
+
+2025-11-18 11:49:14,143 - INFO - Processing foldera: p_twp_00000110.jpg
+2025-11-18 11:49:14,143 - INFO - Already exists: p_twp_00000110.zip
+2025-11-18 11:49:14,143 - INFO - Response has been received from endpoint.
+2025-11-18 11:49:14,143 - INFO - Processing foldera: p_twp_00000111.jpg
+2025-11-18 11:49:14,143 - INFO - Already exists: p_twp_00000111.zip
+2025-11-18 11:49:14,152 - INFO - Response has been received from endpoint.
+2025-11-18 11:49:14,152 - INFO - Processing foldera: p_twp_00000113.jpg
+2025-11-18 11:49:14,152 - INFO - Already exists: p_twp_00000113.zip
+2025-11-18 11:49:14,152 - INFO - Response has been received from endpoint.
+2025-11-18 11:49:14,152 - INFO - Processing foldera: p_twp_00000114.jpg
+2025-11-18 11:49:14,152 - INFO - Already exists: p_twp_00000114.zip
+2025-11-18 11:49:14,152 - INFO - Response has been received from endpoint.
+2025-11-18 11:49:14,152 - INFO - Processing foldera: p_twp_00000115.jpg
+2025-11-18 11:49:14,152 - INFO - Already exists: p_twp_00000115.zip
+2025-11-18 11:49:14,152 - INFO - Response has been received from endpoint.
+2025-11-18 11:49:14,152 - INFO - Processing foldera: p_twp_00000118.jpg
+2025-11-18 11:49:14,152 - INFO - Already exists: p_twp_00000118.zip
+2025-11-18 11:49:14,152 - INFO - Response has been received from endpoint.
+2025-11-18 11:49:14,152 - INFO - Processing foldera: p_twp_00000119.jpg
+2025-11-18 11:49:14,153 - INFO - Already exists: p_twp_00000119.zip
+2025-11-18 11:49:14,153 - INFO - Response has been received from endpoint.
+2025-11-18 11:49:14,153 - INFO - Processing foldera: p_twp_00000120.jpg
+2025-11-18 11:49:14,153 - INFO - Already exists: p_twp_00000120.zip
+2025-11-18 11:49:14,153 - INFO - Response has been received from endpoint.
+2025-11-18 11:49:14,153 - INFO - Processing foldera: p_twp_00000121.jpg
+2025-11-18 11:49:14,153 - INFO - Already exists: p_twp_00000121.zip
+2025-11-18 11:49:14,153 - INFO - Response has been received from endpoint.
+2025-11-18 11:49:14,153 - INFO - Processing foldera: p_twp_00000122.jpg
+2025-11-18 11:49:14,153 - INFO - Already exists: p_twp_00000122.zip
+2025-11-18 11:49:14,153 - INFO - Response has been received from endpoint.
+2025-11-18 11:49:14,153 - INFO - Processing foldera: p_twp_00000123.jpg
+2025-11-18 11:49:14,153 - INFO - Already exists: p_twp_00000123.zip
+2025-11-18 11:49:14,153 - INFO - Response has been received from endpoint.
+2025-11-18 11:49:14,153 - INFO - Processing foldera: p_twp_00000124.jpg
+2025-11-18 11:49:45,210 - INFO - Response has been received from endpoint.
+2025-11-18 11:49:45,210 - INFO - Processing foldera: p_twp_00000125.jpg
+2025-11-18 11:49:45,210 - INFO - Already exists: p_twp_00000125.zip
+2025-11-18 11:49:45,210 - INFO - Response has been received from endpoint.
+2025-11-18 11:49:45,210 - INFO - Processing foldera: p_twp_00000126.jpg
+2025-11-18 11:49:45,210 - INFO - Already exists: p_twp_00000126.zip
+2025-11-18 11:49:45,210 - INFO - Response has been received from endpoint.
+2025-11-18 11:49:45,210 - INFO - Processing foldera: p_twp_00000127.jpg
+2025-11-18 11:49:45,210 - INFO - Already exists: p_twp_00000127.zip
+2025-11-18 11:49:45,210 - INFO - Response has been received from endpoint.
+2025-11-18 11:49:45,210 - INFO - Processing foldera: p_twp_00000128.jpg
+2025-11-18 11:49:45,210 - INFO - Already exists: p_twp_00000128.zip
+2025-11-18 11:49:45,210 - INFO - Response has been received from endpoint.
+2025-11-18 11:49:45,210 - INFO - Processing foldera: p_twp_00000129.jpg
+2025-11-18 11:49:45,210 - INFO - Already exists: p_twp_00000129.zip
+2025-11-18 11:49:45,210 - INFO - Response has been received from endpoint.
+2025-11-18 11:49:45,210 - INFO - Processing foldera: p_twp_00000130.jpg
+2025-11-18 11:49:45,210 - INFO - Already exists: p_twp_00000130.zip
+2025-11-18 11:49:45,210 - INFO - Response has been received from endpoint.
+2025-11-18 11:49:45,210 - INFO - Processing foldera: p_twp_00000131.jpg
+2025-11-18 11:49:45,210 - INFO - Already exists: p_twp_00000131.zip
+2025-11-18 11:49:45,210 - INFO - Response has been received from endpoint.
+2025-11-18 11:49:45,210 - INFO - Processing foldera: p_twp_00000132.jpg
+2025-11-18 11:49:45,210 - INFO - Already exists: p_twp_00000132.zip
+2025-11-18 11:49:45,210 - INFO - Response has been received from endpoint.
+2025-11-18 11:51:12,211 - INFO - 
+
+
+
+2025-11-18 11:51:12,211 - INFO - Processing foldera: p_twp_00000133.jpg
+2025-11-18 11:51:45,588 - INFO - Response has been received from endpoint.
+2025-11-18 11:51:45,588 - INFO - Processing foldera: p_twp_00000134.jpg
+2025-11-18 11:52:18,996 - INFO - Response has been received from endpoint.
+2025-11-18 11:52:18,996 - INFO - Processing foldera: p_twp_00000135.jpg
+2025-11-18 11:52:49,881 - INFO - Response has been received from endpoint.
